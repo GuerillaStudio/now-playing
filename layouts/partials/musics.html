@@ -1,0 +1,14 @@
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ range sort $pages "Date" "desc" }}
+
+<li>
+    <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
+    <!-- <time>{{ .Date.Format "2 January 2006" }}</time> -->
+    {{ $original := resources.Get .Params.cover }}
+    {{ $cover := $original.Resize "x400" }}
+    {{ $placeholder := $cover.Resize "x1" }}
+    <div style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});">
+        <img src="{{ $cover.Permalink }}" width="100" height="100">
+    </div>
+</li>
+{{ end }}

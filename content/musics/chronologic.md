@@ -1,0 +1,16 @@
+---
+title: Chronologic
+artist: Caravan Palace
+date: 2019-01-23T02:09:10.603Z
+cover: /img/cover-1200.jpg
+styles:
+  - Electro-Swing
+links:
+  spotify: https://play.spotify.com/album/7wAuch2tK7ypSdz3bvQ8Io
+  youtube: https://music.youtube.com/playlist?list=PLMEOLAYxGgstLEUGRx8kCF15EFBG5M95X
+  applemusic: https://music.apple.com/us/album/chronologic/1467837311?ign-mpt=uo%3D4
+  soundcloud: ""
+  bandcamp: ""
+  googleplay: https://play.google.com/music/m/Bjd4mk77tbfw36t5pihvnsw76xu?signup_if_needed=1
+  deezer: https://www.deezer.com/album/100026582
+---
