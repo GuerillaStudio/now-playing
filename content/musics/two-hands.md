@@ -2,7 +2,7 @@
 title: Two Hands
 artist: Turbowolf
 date: 2018-12-05T02:09:10.554Z
-cover: /img/tumblr_oe03dzqv2t1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oe03dzqv2t1vfaqyoo1_1280.jpg
 styles:
   - Hard Rock
 links:

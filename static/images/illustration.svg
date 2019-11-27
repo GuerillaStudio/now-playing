@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="661" height="671" viewBox="0 0 661 671">
+  <defs>
+    <linearGradient id="illustration-a" x1="50%" x2="50%" y1="100%" y2="-2.394%">
+      <stop offset="0%" stop-color="#2166FC" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#2166FC"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 5)">
+    <path stroke="url(#illustration-a)" stroke-dasharray=".199 39.881" stroke-linecap="round" stroke-linejoin="round" stroke-width="9.97" d="M3.98809524-5.68434189e-14L3.98809524 284.146707M43.8690476-5.68434189e-14L43.8690476 284.146707M83.75-5.68434189e-14L83.75 284.146707M123.630952-5.68434189e-14L123.630952 284.146707M163.511905-5.68434189e-14L163.511905 284.146707M203.392857-5.68434189e-14L203.392857 284.146707M243.27381-5.68434189e-14L243.27381 284.146707M283.154762-5.68434189e-14L283.154762 284.146707" opacity=".701"/>
+    <ellipse cx="322.039" cy="371.883" fill="#FF2749" fill-rule="nonzero" opacity=".19" rx="272.188" ry="272.183"/>
+    <ellipse cx="546.339" cy="552.341" fill="#FEC156" fill-rule="nonzero" opacity=".5" rx="113.661" ry="113.659"/>
+    <ellipse cx="472.619" cy="175.443" stroke="#FFF" stroke-opacity=".54" stroke-width="1.994" rx="143.571" ry="143.569"/>
+  </g>
+</svg>

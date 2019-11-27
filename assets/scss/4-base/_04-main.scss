@@ -1,0 +1,87 @@
+/* ----------------------------------------------------------- */
+/* == main */
+/* ----------------------------------------------------------- */
+
+body {
+  background-color: $color-primary;
+  color: $color-light-text;
+  font-family: $fontstack1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  max-width: 138rem;
+}
+
+.container--small {
+  max-width: 60rem;
+}
+
+::selection {
+  background-color: rgba($color-secondary, .8);
+  color: $color-light-text;
+}
+
+/* titles
+-------------------------------------------------------------- */
+
+h1 {
+  @include flow(100);
+}
+
+h2 {
+  @include flow(22);
+}
+
+h3 {
+  @include flow(18);
+}
+
+h4 {
+  @include flow(16);
+}
+
+/* links
+-------------------------------------------------------------- */
+
+a,
+a:visited {
+  color: $color-link;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: none;
+  border-radius: .3rem;
+  box-shadow: $focus-ring;
+}
+
+/* lists
+-------------------------------------------------------------- */
+
+ul {
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+/* divers
+-------------------------------------------------------------- */
+
+hr {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: .1rem;
+  border: 0;
+  border-top: .1rem solid #ccc;
+}

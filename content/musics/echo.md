@@ -2,7 +2,7 @@
 title: Echo
 artist: David Maxim Micic
 date: 2018-11-25T02:09:10.544Z
-cover: /img/tumblr_od8z191lhw1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od8z191lhw1vfaqyoo1_1280.jpg
 styles:
   - Progressive Metal
   - Rock

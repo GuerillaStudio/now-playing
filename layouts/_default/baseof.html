@@ -3,11 +3,10 @@
   {{ partial "head" . }}
   <body class="sans-serif">
 
-    {{ block "header" . }}Header{{end}}
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
 
     {{ block "main" . }}{{ end }}
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
   </body>
 </html>

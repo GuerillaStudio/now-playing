@@ -2,7 +2,7 @@
 title: All the Wars
 artist: The Pineapple Thief
 date: 2018-12-16T02:09:10.565Z
-cover: /img/tumblr_od8ui8iv6e1vfaqyoo1_r1_1280.jpg
+cover: /upload/tumblr_od8ui8iv6e1vfaqyoo1_r1_1280.jpg
 styles:
   - Progressive Rock
 links:

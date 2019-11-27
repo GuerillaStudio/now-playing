@@ -1,5 +1,33 @@
 {{ define "main" }}
+<main>
+    <div class="home-head">
+      <div class="container">
+        <div class="home-head__container">
+          <h1 class="home-head__title" data-text="Handpicked Albums">
+            <span class="glitch" data-text="Handpicked">Handpicked</span> <span class="glitch" data-text="Albums">Albums</span>
+          </h1>
+          <p class="home-head__subtitle">by the Glitch Family</p>
+        </div>
+      </div>
+    </div>
 
-{{ partial "musics" . }}
-
+    <!-- Album list -->
+    <div class="content">
+      <div class="container">
+        {{ partial "musics" . }}
+        {{ partial "pagination" . }}
+      </div>
+    </div>
+    <!-- About  -->
+    <section class="home-about">
+      <div class="container">
+        <h2 class="visually-hidden">About</h2>
+        <p>At Glitch Family we love music, I mean we LOVE music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums that are dear to us.</p>
+        <p>
+          This is Now Playing.<br>
+          A Glitch Family’s project.
+        </p>
+      </div>
+    </section>
+  </main>
 {{ end }}

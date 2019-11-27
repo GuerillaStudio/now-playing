@@ -2,7 +2,7 @@
 title: Technokinesis
 artist: Meganeko
 date: 2018-12-18T02:09:10.567Z
-cover: /img/a0728836461_16.jpg
+cover: /upload/a0728836461_16.jpg
 styles:
   - Electronic
   - Electronica

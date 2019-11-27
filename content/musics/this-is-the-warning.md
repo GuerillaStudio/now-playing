@@ -2,7 +2,7 @@
 title: This Is The Warning
 artist: Dead Letter Circus
 date: 2018-12-03T02:09:10.552Z
-cover: /img/tumblr_oeb9nlsdpn1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oeb9nlsdpn1vfaqyoo1_1280.jpg
 styles:
   - Alternative Rock
   - Progressive Rock

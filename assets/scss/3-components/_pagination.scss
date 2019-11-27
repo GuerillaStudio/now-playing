@@ -1,0 +1,34 @@
+/**
+ * Pagination Module
+ * namespace : .pagination
+ */
+
+/* ----------------------------------------------------------- */
+/* == module */
+/* ----------------------------------------------------------- */
+
+.pagination {
+  display: inline-block;
+  padding-top: 10rem;
+  width: 100%;
+  border-radius: .4rem;
+  background-color: $color-primary;
+}
+
+.pagination > .container {
+  max-width: 68rem;
+  width: 80%;
+}
+
+.pagination__side {
+  display: flex;
+  margin-top: 2rem;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.pagination__side > * {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 50%;
+}

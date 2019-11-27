@@ -2,7 +2,7 @@
 title: Handmade Cities
 artist: Plini
 date: 2019-01-03T02:09:10.583Z
-cover: /img/a2040672325_16.jpg
+cover: /upload/a2040672325_16.jpg
 styles:
   - Progressive Rock
   - Instrumental

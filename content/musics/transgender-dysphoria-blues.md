@@ -2,7 +2,7 @@
 title: Transgender Dysphoria Blues
 artist: Against Me!
 date: 2019-01-19T02:09:10.599Z
-cover: /img/transgenderdysphoriablues_1024x1024.jpg
+cover: /upload/transgenderdysphoriablues_1024x1024.jpg
 styles:
   - Punk
   - Punk Rock

@@ -2,7 +2,7 @@
 title: Luftslott
 artist: Ugress
 date: 2018-11-28T02:09:10.547Z
-cover: /img/tumblr_od9bkx4mqi1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od9bkx4mqi1vfaqyoo1_1280.jpg
 styles:
   - Electronica
   - Trip hop

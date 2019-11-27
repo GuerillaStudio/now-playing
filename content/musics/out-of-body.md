@@ -2,7 +2,7 @@
 title: Out of Body
 artist: Dance With the Dead
 date: 2018-12-23T02:09:10.572Z
-cover: /img/a0650005973_16.jpg
+cover: /upload/a0650005973_16.jpg
 styles:
   - Synthwave
   - Metal

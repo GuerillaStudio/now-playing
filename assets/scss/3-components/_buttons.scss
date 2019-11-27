@@ -1,0 +1,122 @@
+/**
+* Button Module
+* namespace : .btn
+*/
+
+/* ----------------------------------------------------------- */
+/* == configuration */
+/* ----------------------------------------------------------- */
+
+
+$btn-primary: $color-secondary;
+$btn-secondary: rgba($color-light-text, .05);
+$btn-success: #1cb841;
+$btn-danger: #c53a3a;
+$btn-hover: 5%;
+$btn-radius: .2rem;
+
+
+/* ----------------------------------------------------------- */
+/* == module */
+/* ----------------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: $btn-radius;
+  background-color: $btn-primary;
+  box-shadow: none;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 2rem;
+  line-height: normal;
+  cursor: pointer;
+  transition: background-color .4s;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  box-shadow: $focus-ring;
+}
+
+/* colors
+-------------------------------------------------------------- */
+
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited {
+  background-color: rgba($btn-primary, .6);
+  color: #fff;
+}
+
+.btn--primary:hover,
+.btn--primary:active,
+.btn--primary:focus {
+  background-color: $btn-primary;
+}
+
+.btn--secondary,
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: $btn-secondary;
+  color: #fff;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active,
+.btn--secondary:focus {
+  background-color: rgba($color-light-text, .1);
+}
+
+.btn--secondary.disabled,
+.btn--secondary.disabled:hover,
+.btn--secondary.disabled:active,
+.btn--secondary.disabled:focus {
+  background-color: rgba($color-light-text, .05);
+  box-shadow: none;
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.btn--danger,
+.btn--danger:link,
+.btn--danger:visited {
+  background-color: $btn-danger;
+  color: #fff;
+}
+
+
+.btn--danger:hover,
+.btn--danger:active,
+.btn--danger:focus {
+  background-color: darken($btn-danger, $btn-hover);
+}
+
+.btn--link,
+.btn--link:link,
+.btn--link:visited {
+  display: inline;
+  padding: 0;
+  border: none;
+  background: none;
+  color: $color-light-text;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn--link:hover,
+.btn--link:active,
+.btn--link:focus {
+  text-decoration: underline;
+}
+
+/* size
+-------------------------------------------------------------- */
+
+.btn--big {
+  padding: 2rem 4rem;
+}

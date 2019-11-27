@@ -2,7 +2,7 @@
 title: Miracle
 artist: Caravan Palace
 date: 2019-01-10T02:09:10.590Z
-cover: /img/70743_large.jpg
+cover: /upload/70743_large.jpg
 styles:
   - Electro Swing
   - House

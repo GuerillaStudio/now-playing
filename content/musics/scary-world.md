@@ -2,7 +2,7 @@
 title: Scary World
 artist: Night Club
 date: 2018-12-31T02:09:10.580Z
-cover: /img/night_club_-_scary_world-1.jpg
+cover: /upload/night_club_-_scary_world-1.jpg
 styles:
   - Electronic
   - Darkwave

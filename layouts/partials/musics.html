@@ -1,14 +1,25 @@
-{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-{{ range sort $pages "Date" "desc" }}
-
-<li>
-    <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
-    <!-- <time>{{ .Date.Format "2 January 2006" }}</time> -->
+{{ $pages := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+<div class="grid grid-catalog">
+  {{ range sort $pages.Pages "Date" "desc" }}
     {{ $original := resources.Get .Params.cover }}
-    {{ $cover := $original.Resize "x400" }}
+    {{ $cover := $original.Resize "x320" }}
+    {{ $cover2x := $original.Resize "x640" }}
     {{ $placeholder := $cover.Resize "x1" }}
-    <div style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});">
-        <img src="{{ $cover.Permalink }}" width="100" height="100">
+    <div class="catalog-item">
+      <a class="catalog-item__content" href="{{ .Permalink }}">
+        <h2 class="catalog-item__album">{{ .Title }}</h2>
+        <div class="catalog-item__artist">by {{ .Params.artist }}</div>
+          <img
+          class="catalog-item__visual"
+          width="320"
+          height="320"
+          style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
+          src="{{ $cover.Permalink }}"
+          srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x"
+          alt="{{ .Title }} album's cover'"
+          title="{{ .Title }} album's cover'"
+          >
+      </a>
     </div>
-</li>
-{{ end }}
+  {{ end }}
+</div>

@@ -2,7 +2,7 @@
 title: Healing
 artist: In Love With a Ghost
 date: 2018-12-29T02:09:10.578Z
-cover: /img/a2770210702_16.jpg
+cover: /upload/a2770210702_16.jpg
 styles:
   - Lofi
   - Piano

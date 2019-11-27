@@ -2,7 +2,7 @@
 title: New Model
 artist: Perturbator
 date: 2019-01-02T02:09:10.582Z
-cover: /img/a3395045031_16.jpg
+cover: /upload/a3395045031_16.jpg
 styles:
   - Electronic
   - Synthwave

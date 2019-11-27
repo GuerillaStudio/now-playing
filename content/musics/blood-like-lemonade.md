@@ -2,7 +2,7 @@
 title: Blood Like Lemonade
 artist: Morcheeba
 date: 2018-12-04T02:09:10.553Z
-cover: /img/tumblr_oestcpgtdo1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oestcpgtdo1vfaqyoo1_1280.jpg
 styles:
   - Trip hop
   - Downtempo

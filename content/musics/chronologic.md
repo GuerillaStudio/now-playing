@@ -2,7 +2,7 @@
 title: Chronologic
 artist: Caravan Palace
 date: 2019-01-23T02:09:10.603Z
-cover: /img/cover-1200.jpg
+cover: /upload/cover-1200.jpg
 styles:
   - Electro-Swing
 links:

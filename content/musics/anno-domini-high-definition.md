@@ -2,7 +2,7 @@
 title: Anno Domini High Definition
 artist: Riverside
 date: 2019-01-20T02:09:10.600Z
-cover: /img/71veci6ghzl._sl1500.jpg
+cover: /upload/71veci6ghzl._sl1500.jpg
 styles:
   - Progressive Rock
 links:

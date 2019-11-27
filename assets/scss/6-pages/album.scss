@@ -1,0 +1,120 @@
+/* ----------------------------------------------------------- */
+/* == Album showcase page */
+/* ----------------------------------------------------------- */
+
+.album {
+  margin-bottom: 10rem;
+  border-top: 33.7rem solid $color-bg-head;
+}
+
+.album > .container {
+  margin-top: -24.3rem;
+}
+
+.album-layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Cover
+-------------------------------------------------------------- */
+
+.album-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: -7rem;
+  padding: 8.5rem 9rem 8rem 7rem;
+  max-width: 66rem;
+  width: 51%;
+  background: url("/images/illustration.svg") no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  font-size: 0;
+}
+
+.album-cover__visual {
+  flex-shrink: 0;
+  max-width: 50rem;
+  width: 100%;
+  border-radius: .6rem;
+  background-color: rgba($color-primary, .5);
+  box-shadow: 0 .6rem 4.4rem 0 rgba(0,0,0,.5);
+}
+
+/* Infos
+-------------------------------------------------------------- */
+
+.album-infos {
+  margin-left: 1rem;
+  padding-top: 18.3rem;
+}
+
+.album-name {
+  margin: 0;
+  font-weight: 900;
+  font-size: 7rem;
+  line-height: 7rem;
+}
+
+.album-artist {
+  display: block;
+  margin-top: .4rem;
+  color: rgba($color-light-text, .8);
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+.album-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: 4rem;
+  padding: 0;
+}
+
+.album-tags__item {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: .7rem 2rem .9rem;
+  border-radius: 4.2rem;
+  background: rgba($color-light-text, .1);
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+/* Links
+-------------------------------------------------------------- */
+
+.album-links {
+  margin-top: 4rem;
+}
+
+.album-links__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.album-links__item:link,
+.album-links__item:visited {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border-radius: .2rem;
+  background-color: rgba($color-light-text, .05);
+  color: $color-secondary;
+  text-decoration: none;
+  transition: .15s background;
+}
+
+.album-links__item:hover,
+.album-links__item:active,
+.album-links__item:focus {
+  background-color: rgba($color-light-text, .1);
+}
+
+.album-links__item svg {
+  vertical-align: middle;
+}

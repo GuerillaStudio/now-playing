@@ -2,7 +2,7 @@
 title: Daft Science
 artist: Coins
 date: 2019-01-09T02:09:10.589Z
-cover: /img/a2061651603_16.jpg
+cover: /upload/a2061651603_16.jpg
 styles:
   - Electro
   - Hip Pop

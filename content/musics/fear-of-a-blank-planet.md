@@ -2,7 +2,7 @@
 title: Fear of a Blank Planet
 artist: Porcupine Tree
 date: 2019-01-05T02:09:10.585Z
-cover: /img/fear_of_a_blank_planet.jpg
+cover: /upload/fear_of_a_blank_planet.jpg
 styles:
   - Progressive Rock
 links:

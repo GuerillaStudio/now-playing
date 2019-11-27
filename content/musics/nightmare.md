@@ -2,7 +2,7 @@
 title: Nightmare
 artist: Avenged Sevenfold
 date: 2019-01-21T02:09:10.601Z
-cover: /img/avenged-sevenfold-nightmare-20161013173906.jpg
+cover: /upload/avenged-sevenfold-nightmare-20161013173906.jpg
 styles:
   - Heavy Metal
 links:

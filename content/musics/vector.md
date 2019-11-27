@@ -2,7 +2,7 @@
 title: Vector
 artist: Haken
 date: 2019-01-16T02:09:10.596Z
-cover: /img/haken_vector.jpg
+cover: /upload/haken_vector.jpg
 styles:
   - Progressive Metal
 links:

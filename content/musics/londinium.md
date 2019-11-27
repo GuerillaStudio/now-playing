@@ -2,7 +2,7 @@
 title: Londinium
 artist: Archive
 date: 2018-12-08T02:09:10.557Z
-cover: /img/tumblr_ohvtwyysjp1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_ohvtwyysjp1vfaqyoo1_1280.jpg
 styles:
   - Trip pop
 links:

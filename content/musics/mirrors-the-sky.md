@@ -2,7 +2,7 @@
 title: Mirrors the Sky
 artist: Layla Foy
 date: 2018-11-24T02:09:10.543Z
-cover: /img/tumblr_od8ynlxegl1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od8ynlxegl1vfaqyoo1_1280.jpg
 styles:
   - Pop
   - Psychedelic

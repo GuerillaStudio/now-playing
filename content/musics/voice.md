@@ -2,7 +2,7 @@
 title: Voice
 artist: Hiromi
 date: 2018-12-28T02:09:10.577Z
-cover: /img/cover_50176662016_r.jpg
+cover: /upload/cover_50176662016_r.jpg
 styles:
   - Jazz
   - Fusion

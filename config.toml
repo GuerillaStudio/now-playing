@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "http://127.0.0.1:8080/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Now Playing"
 mainSections = ["musics"]
+paginate = 16

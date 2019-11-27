@@ -1,0 +1,114 @@
+/* ----------------------------------------------------------- */
+/* == Catalog page */
+/* ----------------------------------------------------------- */
+
+/* Head
+-------------------------------------------------------------- */
+
+.catalog-head {
+  padding-top: 8rem;
+  padding-bottom: 6.5rem;
+  background-color: $color-bg-head;
+}
+
+.catalog-head__title {
+  margin: 0;
+  font-size: 10rem;
+}
+
+.catalog-head__title--primary {
+  margin-right: 3rem;
+}
+
+.catalog-head__title--secondary {
+  color: rgba($color-light-text, .6);
+  vertical-align: baseline;
+  font-size: 3.6rem;
+}
+
+/* List
+-------------------------------------------------------------- */
+
+.catalog-item {
+  position: relative;
+  box-shadow: none;
+  color: rgba($color-light-text, .8);
+  font-size: 1.8rem;
+}
+
+.catalog-item__content,
+.catalog-item__content:link,
+.catalog-item__content:visited {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.catalog-item__content:active,
+.catalog-item__content:focus {
+  box-shadow: none;
+}
+
+.catalog-item__visual {
+  position: relative;
+  flex-shrink: 0;
+  order: -1;
+  overflow: hidden;
+  width: 100%;
+  border-radius: .3rem;
+  background-color: rgba(#fff, .3);
+  box-shadow: 0 .3rem 2.2rem 0 rgba(0,0,0,.10);
+  font-size: 0;
+  transition: all .2s;
+}
+
+.catalog-item__content:hover .catalog-item__visual,
+.catalog-item__content:active .catalog-item__visual,
+.catalog-item__content:focus .catalog-item__visual {
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.catalog-item__content:active .catalog-item__visual,
+.catalog-item__content:focus .catalog-item__visual {
+  box-shadow: $focus-ring;
+}
+
+.catalog-item__album {
+  margin: 0;
+  margin-top: 1.5rem;
+  color: $color-light-text;
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+.catalog-item__artist {
+  margin-top: .8rem;
+}
+
+/* Manage button
+-------------------------------------------------------------- */
+
+.catalog-item__manage:link,
+.catalog-item__manage:visited {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-top: .5rem;
+  margin-left: .5rem;
+  padding: .5rem 1rem;
+  width: calc(100% - 1rem);
+  border-radius: .3rem;
+  background-color: darken($color-primary, 5%);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: .1s all;
+}
+
+.catalog-item__manage:hover,
+.catalog-item__manage:active,
+.catalog-item__manage:focus {
+  background-color: lighten($color-primary, 10%);
+}

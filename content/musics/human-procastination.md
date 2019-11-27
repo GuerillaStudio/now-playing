@@ -2,7 +2,7 @@
 title: Human Procastination
 artist: LOOK MUM NO COMPUTER
 date: 2019-01-25T02:09:10.605Z
-cover: /img/939x0w.jpg
+cover: /upload/939x0w.jpg
 styles:
   - Electronic
 links:

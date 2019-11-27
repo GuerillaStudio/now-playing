@@ -2,7 +2,7 @@
 title: Shake Shook Shaken
 artist: The Dø
 date: 2018-12-20T02:09:10.569Z
-cover: /img/the-do-shake-shook-shaken.jpg
+cover: /upload/the-do-shake-shook-shaken.jpg
 styles:
   - Electronic Rock
   - Indie Pop

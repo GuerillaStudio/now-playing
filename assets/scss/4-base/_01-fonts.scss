@@ -1,0 +1,31 @@
+/* ----------------------------------------------------------- */
+/* == custom fonts */
+/* ----------------------------------------------------------- */
+
+
+@font-face {
+  font-display: swap;
+  font-weight: normal;
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"),
+  url("/fonts/sourcesanspro-regular-webfont.woff2") format("woff2"),
+  url("/fonts/sourcesanspro-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-weight: 600;
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"),
+  url("/fonts/sourcesanspro-semibold-webfont.woff2") format("woff2"),
+  url("/fonts/sourcesanspro-semibold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-weight: 900;
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"),
+  url("/fonts/sourcesanspro-black-webfont.woff2") format("woff2"),
+  url("/fonts/sourcesanspro-black-webfont.woff") format("woff");
+}

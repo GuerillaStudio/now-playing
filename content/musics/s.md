@@ -2,7 +2,7 @@
 title: Σ
 artist: REOL
 date: 2019-01-04T02:09:10.584Z
-cover: /img/sigma.jpg
+cover: /upload/sigma.jpg
 styles:
   - Electronic
   - Dance Music

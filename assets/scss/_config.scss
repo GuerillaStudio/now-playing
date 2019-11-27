@@ -1,0 +1,29 @@
+// --------------------------------------------------------------
+// == config */
+// --------------------------------------------------------------
+
+// base
+// --------------------------------------------------------------
+
+$base-font: 16; // px value (without unit), will be converted in em
+$line-height: 1.5;
+$fontstack1: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontstack2: Georgia, Times, "Times New Roman", serif;
+
+// responsive
+// --------------------------------------------------------------
+
+$xsmall: 480px;
+$small: 840px;
+$medium: 960px;
+$large: 1280px;
+
+// default gutter
+// --------------------------------------------------------------
+
+$default-gutter: 2rem;
+
+// Focus ring
+// --------------------------------------------------------------
+
+$focus-ring: 0 0 0 .3rem rgba($color-tertiary, .5);

@@ -2,7 +2,7 @@
 title: Everchild
 artist: Dark Suns
 date: 2018-12-02T02:09:10.551Z
-cover: /img/tumblr_odabwioake1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_odabwioake1vfaqyoo1_1280.jpg
 styles:
   - Progressive Metal
 links:

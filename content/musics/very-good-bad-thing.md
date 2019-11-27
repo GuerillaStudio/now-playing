@@ -2,7 +2,7 @@
 title: Very Good Bad Thing
 artist: Mother Mother
 date: 2018-11-30T02:09:10.549Z
-cover: /img/tumblr_odnacvmu5u1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_odnacvmu5u1vfaqyoo1_1280.jpg
 styles:
   - Indie Rock
 links:

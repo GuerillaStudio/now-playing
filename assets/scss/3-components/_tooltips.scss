@@ -1,0 +1,112 @@
+/**
+ * Tooltip Module
+ * namespace : .tooltip
+ */
+
+
+/* ----------------------------------------------------------- */
+/* == configuration */
+/* ----------------------------------------------------------- */
+
+
+$tooltip-bg: rgba($color-tertiary, .6);
+$tooltip-color: #fff;
+$tooltip-radius: .2rem;
+
+
+/* ----------------------------------------------------------- */
+/* == module */
+/* ----------------------------------------------------------- */
+
+.tooltip {
+  position: relative;
+  // cursor: help;
+}
+
+.tooltip:hover::after,
+.tooltip:focus::after {
+  position: absolute;
+  bottom: calc(100% + 1em);
+  left: 50%;
+  padding: .5em 1em;
+  border-radius: $tooltip-radius;
+  background: $tooltip-bg;
+  color: $tooltip-color;
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  font-size: 1.4rem;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover::before,
+.tooltip:focus::before {
+  position: absolute;
+  bottom: calc(100% + .45em);
+  left: 50%;
+  display: block;
+  border: solid;
+  border-width: .4em .4em 0 .4em;
+  border-color: $tooltip-bg transparent;
+  content: "";
+  transform: translateX(-50%);
+}
+
+
+/* Right version
+-------------------------------------------------------------- */
+
+.tooltip--right:hover::before,
+.tooltip--right:focus::before {
+  bottom: 50%;
+  left: calc(100% + .65em);
+  border-width: .4em .4em .4em 0;
+  border-color: transparent $tooltip-bg;
+  transform: translateY(50%);
+}
+
+.tooltip--right:hover::after,
+.tooltip--right:focus::after {
+  bottom: 50%;
+  left: calc(100% + .9em);
+  transform: translateY(50%);
+}
+
+/* Left version
+-------------------------------------------------------------- */
+
+.tooltip--left:hover::before,
+.tooltip--left:focus::before {
+  right: calc(100% + .65em);
+  bottom: 50%;
+  left: inherit;
+  border-width: .4em 0 .4em .4em;
+  border-color: transparent $tooltip-bg;
+  transform: translateY(50%);
+}
+
+.tooltip--left:hover::after,
+.tooltip--left:focus::after {
+  right: calc(100% + .9em);
+  bottom: 50%;
+  left: inherit;
+  transform: translateY(50%);
+}
+
+/* Bottom version
+-------------------------------------------------------------- */
+
+.tooltip--bottom:hover::before,
+.tooltip--bottom:focus::before {
+  top: calc(100% + .4em);
+  bottom: inherit;
+  border-width: 0 .4em .4rem .4em;
+  border-color: $tooltip-bg transparent;
+  transform: translateX(-50%);
+}
+
+.tooltip--bottom:hover::after,
+.tooltip--bottom:focus::after {
+  top: calc(100% + 1rem);
+  bottom: inherit;
+  transform: translateX(-50%);
+}

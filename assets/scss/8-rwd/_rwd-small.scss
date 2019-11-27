@@ -1,0 +1,234 @@
+/* ----------------------------------------------------------- */
+/* == rwd -> small */
+/* ----------------------------------------------------------- */
+
+@media (max-width: $small) {
+  /* Common
+  -------------------------------------------------------------- */
+
+  .container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  /* Header
+  -------------------------------------------------------------- */
+
+  .header--home {
+    padding-top: 0;
+  }
+
+  .header > .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .header__tagline {
+    display: none;
+  }
+
+  /* Mobile Menu
+  -------------------------------------------------------------- */
+
+  .navigation__mobileBtn {
+    display: block;
+    padding: .3rem 1rem .4rem;
+    border: .1rem solid rgba($color-light-text, .8);
+    border-radius: .3rem;
+    background-color: transparent;
+    color: $color-light-text;
+    transition: .1s all;
+  }
+
+  .navigation__mobileBtn:hover,
+  .navigation__mobileBtn:active {
+    background-color: $color-light-text;
+    color: $color-primary;
+  }
+
+  .navigation__mobileBtn:active,
+  .navigation__mobileBtn:focus {
+    outline: none;
+    box-shadow: $focus-ring;
+  }
+
+  .navigation__mobileOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    opacity: 0;
+    transition: opacity .15s cubic-bezier(0, 0, .30, 1);
+  }
+
+  .navigation__mobileOverlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    margin: 0;
+    padding: 1rem;
+    max-width: 30rem;
+    width: 85%;
+    height: 100%;
+    background: $color-bg-head url("/images/triforce.svg") no-repeat;
+    background-position: center calc(100% - 4rem);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, .4);
+    transition: transform .33s cubic-bezier(0, 0, .30, 1);
+    transform: translateX(-103%);
+
+    will-change: transform;
+  }
+
+  .navigation.active {
+    transform: translateX(0);
+  }
+
+  .navigation__item,
+  .navigation__item:link,
+  .navigation__item:visited {
+    margin: .5rem 0;
+    padding: .5rem 1rem;
+    border: none;
+    color: rgba($color-light-text, .9);
+    font-size: 2rem;
+  }
+
+  .navigation__item:after {
+    content: none;
+  }
+
+  /* Footer
+  -------------------------------------------------------------- */
+
+  .footer {
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+    background-position: center 6rem;
+  }
+
+  /* Home
+  -------------------------------------------------------------- */
+
+  .home-head {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+
+  .home-head > .container {
+    padding-bottom: 4rem;
+    background-position: calc(100% - 2rem) center;
+  }
+
+  .home-head__container {
+    max-width: 36rem;
+  }
+
+  .home-head__title {
+    font-size: 6rem;
+  }
+
+  .home-head__subtitle {
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+  }
+
+  .home-about {
+    padding-top: 10rem;
+    font-size: 2rem;
+  }
+
+  /* Catalog
+  -------------------------------------------------------------- */
+
+  .catalog-head {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .catalog-head__title {
+    font-size: 6rem;
+  }
+
+  .catalog-head__title--primary {
+    margin-right: 2rem;
+  }
+
+  .catalog-head__title--secondary {
+    font-size: 2.8rem;
+  }
+
+  .catalog-item:link,
+  .catalog-item:visited {
+    font-size: 1.6rem;
+  }
+
+  .catalog-item__album {
+    font-size: 2rem;
+  }
+
+  /* Album
+  -------------------------------------------------------------- */
+
+  .album {
+    margin-bottom: 5rem;
+    border-top-width: 12rem;
+  }
+
+  .album > .container {
+    margin-top: -8.7rem;
+  }
+
+  .album-cover {
+    margin-left: -3rem;
+    padding: 3rem;
+  }
+
+  .album-infos {
+    margin-left: 0;
+    padding-top: 5.4rem;
+  }
+
+  .album-name {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .album-artist {
+    font-size: 1.6rem;
+  }
+
+  .album-tags__item {
+    padding: .4rem 1.5rem .5rem;
+    color: rgba($color-light-text, .8);
+    font-size: 1.3rem;
+  }
+
+  .album-links__item:link,
+  .album-links__item:visited {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .album-links__item svg {
+    width: 5rem;
+    height: 5rem;
+  }
+}

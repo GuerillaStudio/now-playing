@@ -2,7 +2,7 @@
 title: LUX
 artist: Ez3kiel
 date: 2018-12-25T02:09:10.574Z
-cover: /img/cover_lux.png
+cover: /upload/cover_lux.png
 styles:
   - Dub
   - Electronic

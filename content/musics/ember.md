@@ -2,7 +2,7 @@
 title: Ember
 artist: Kubbi
 date: 2018-12-01T02:09:10.550Z
-cover: /img/tumblr_od90lhpow21vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od90lhpow21vfaqyoo1_1280.jpg
 styles:
   - Electronic
   - Chiptunes

@@ -1,0 +1,24 @@
+/* ----------------------------------------------------------- */
+/* == rwd -> reduced motion */
+/* ----------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  /* Glitch text
+  -------------------------------------------------------------- */
+
+  .glitch::before,
+  .glitch::after,
+  .glitch--hover:hover::before,
+  .glitch--hover:hover::after {
+    animation: none;
+  }
+
+  /* Catalog
+  -------------------------------------------------------------- */
+
+  .catalog-item__content:hover .catalog-item__visual,
+  .catalog-item__content:active .catalog-item__visual,
+  .catalog-item__content:focus .catalog-item__visual {
+    transform: none;
+  }
+}

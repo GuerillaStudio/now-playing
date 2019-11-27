@@ -2,7 +2,7 @@
 title: Trilogy
 artist: The Weeknd
 date: 2019-01-12T02:09:10.592Z
-cover: /img/8386fd594c42ffe29b24159714f9da0b.jpg
+cover: /upload/8386fd594c42ffe29b24159714f9da0b.jpg
 styles:
   - Electronic
 links:

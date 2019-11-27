@@ -2,7 +2,7 @@
 title: Transcendence
 artist: Devin Townsend Project
 date: 2018-12-24T02:09:10.573Z
-cover: /img/81zldubpmpl._sl1500.jpg
+cover: /upload/81zldubpmpl._sl1500.jpg
 styles:
   - Progressive Metal
   - Heavy Metal

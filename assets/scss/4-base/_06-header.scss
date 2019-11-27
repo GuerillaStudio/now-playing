@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------- */
+/* == header */
+/* ----------------------------------------------------------- */
+
+.header {
+  position: relative;
+  top: 0;
+  background-color: $color-bg-head;
+}
+
+.header--home {
+  padding-top: 2.5rem;
+}
+
+.header > .container {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.header__left {
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__logo:link,
+.header__logo:visited {
+  margin-right: 1rem;
+  width: 18rem;
+  box-shadow: none;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3.8rem;
+}
+
+.header__logo:active,
+.header__logo:focus {
+  text-decoration: underline;
+
+  text-decoration-skip-ink: auto;
+}
+
+.header__logo:active::before,
+.header__logo:focus::after,
+.header__logo:active::before,
+.header__logo:focus::after {
+  content: none;
+}
+
+.header__tagline {
+  margin-bottom: .4rem;
+  color: rgba($color-light-text, .7);
+}

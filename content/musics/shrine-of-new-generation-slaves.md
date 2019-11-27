@@ -2,7 +2,7 @@
 title: Shrine of New Generation Slaves
 artist: Riverside
 date: 2018-11-29T02:09:10.548Z
-cover: /img/tumblr_od911hqpw81vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od911hqpw81vfaqyoo1_1280.jpg
 styles:
   - Progressive Rock
 links:

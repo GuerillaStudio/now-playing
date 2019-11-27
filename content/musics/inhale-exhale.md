@@ -2,7 +2,7 @@
 title: Inhale / Exhale
 artist: Glaston
 date: 2018-12-27T02:09:10.576Z
-cover: /img/a2612354725_16.jpg
+cover: /upload/a2612354725_16.jpg
 styles:
   - Post-Rock
 links:

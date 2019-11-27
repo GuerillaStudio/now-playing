@@ -2,7 +2,7 @@
 title: Once More ‘Round the Sun
 artist: Mastodon
 date: 2018-11-27T02:09:10.546Z
-cover: /img/tumblr_od91wrov3p1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od91wrov3p1vfaqyoo1_1280.jpg
 styles:
   - Progressive Metal
   - Heavy Metal

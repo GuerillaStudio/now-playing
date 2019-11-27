@@ -2,7 +2,7 @@
 title: Neon Impasse
 artist: City Girl
 date: 2018-12-21T02:09:10.570Z
-cover: /img/a2050194680_16.jpg
+cover: /upload/a2050194680_16.jpg
 styles:
   - Soft Piano
   - Lofi

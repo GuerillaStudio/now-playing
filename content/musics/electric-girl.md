@@ -2,7 +2,7 @@
 title: Electric Girl
 artist: she
 date: 2018-12-19T02:09:10.568Z
-cover: /img/a1739426881_16.jpg
+cover: /upload/a1739426881_16.jpg
 styles:
   - Electronic
   - Electronica

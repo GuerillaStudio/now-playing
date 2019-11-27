@@ -2,7 +2,7 @@
 title: Brute Force
 artist: The Algorithm
 date: 2018-12-22T02:09:10.571Z
-cover: /img/brute_force.jpg
+cover: /upload/brute_force.jpg
 styles:
   - Electronic
   - Progressive Metal

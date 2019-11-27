@@ -2,7 +2,7 @@
 title: Requiem for Romance
 artist: Night Club
 date: 2019-01-13T02:09:10.593Z
-cover: /img/a2530641631_16.jpg
+cover: /upload/a2530641631_16.jpg
 styles:
   - Electronic
   - Darkwave

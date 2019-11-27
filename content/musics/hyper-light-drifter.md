@@ -2,7 +2,7 @@
 title: Hyper Light Drifter
 artist: Disasterpeace
 date: 2018-12-12T02:09:10.561Z
-cover: /img/tumblr_oondm7xmeq1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oondm7xmeq1vfaqyoo1_1280.jpg
 styles:
   - Pensive
   - Chiptunes

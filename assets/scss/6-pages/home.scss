@@ -1,0 +1,61 @@
+/* ----------------------------------------------------------- */
+/* == Home page */
+/* ----------------------------------------------------------- */
+
+/* Head
+-------------------------------------------------------------- */
+
+.home-head {
+  padding-top: 9rem;
+  padding-bottom: 10rem;
+  background: $color-bg-head;
+}
+
+.home-head > .container {
+  padding-bottom: 6rem;
+  background: url("/images/illustration.svg") no-repeat;
+  background-position: calc(100% - 4rem) center;
+  background-size: auto 100%;
+}
+
+.home-head__container {
+  max-width: 57rem;
+}
+
+.home-head__title {
+  margin-bottom: 0;
+}
+
+.home-head__title span {
+  display: block;
+}
+
+.home-head__subtitle {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: rgba($color-light-text, .8);
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+/* About
+-------------------------------------------------------------- */
+
+.home-about {
+  padding-top: 20rem;
+  background-color: $color-primary;
+  color: rgba($color-light-text, .6rem);
+  text-align: center;
+  font-style: italic;
+  font-size: 2.6rem;
+}
+
+.home-about > .container {
+  max-width: 70rem;
+  width: 90%;
+}
+
+.home-about p:last-child {
+  margin-bottom: 0;
+}

@@ -2,7 +2,7 @@
 title: Prequelle
 artist: Ghost
 date: 2018-12-26T02:09:10.575Z
-cover: /img/857vao72zkr01.jpg
+cover: /upload/857vao72zkr01.jpg
 styles:
   - Rock
   - Hard Rock

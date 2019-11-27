@@ -2,7 +2,7 @@
 title: Destrier
 artist: Agent Fresco
 date: 2019-01-18T02:09:10.598Z
-cover: /img/agent-fresco.jpg
+cover: /upload/agent-fresco.jpg
 styles:
   - Progressive Rock
   - Progressive Metal

@@ -2,7 +2,7 @@
 title: Pink Lemonade
 artist: Closure in Moscow
 date: 2018-11-26T02:09:10.545Z
-cover: /img/tumblr_od8yzti0js1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_od8yzti0js1vfaqyoo1_1280.jpg
 styles:
   - Progressive Rock
   - Psychedelic Rock

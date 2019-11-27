@@ -2,7 +2,7 @@
 title: 太鼓
 artist: Danger
 date: 2019-01-06T02:09:10.586Z
-cover: /img/danger-taiko.jpg
+cover: /upload/danger-taiko.jpg
 styles:
   - Electronic
   - Trip hop

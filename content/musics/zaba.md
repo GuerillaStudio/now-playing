@@ -2,7 +2,7 @@
 title: Zaba
 artist: Glass Animals
 date: 2018-12-14T02:09:10.563Z
-cover: /img/tumblr_orz1bzbbic1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_orz1bzbbic1vfaqyoo1_1280.jpg
 styles:
   - Indie Rock
   - Psychedelic Pop

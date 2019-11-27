@@ -2,7 +2,7 @@
 title: Corpo-Mente
 artist: Corpo-Mente
 date: 2018-11-23T02:09:10.542Z
-cover: /img/tumblr_ohvwiujxtj1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_ohvwiujxtj1vfaqyoo1_1280.jpg
 styles:
   - Baroque
   - Rock

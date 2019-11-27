@@ -2,7 +2,7 @@
 title: Kvelertak
 artist: Kvelertak
 date: 2019-01-08T02:09:10.588Z
-cover: /img/kvelertak.jpg
+cover: /upload/kvelertak.jpg
 styles:
   - Black Metal
   - Punk Hardcore

@@ -1,0 +1,101 @@
+/* ----------------------------------------------------------- */
+/* == rwd -> xsmall */
+/* ----------------------------------------------------------- */
+
+@media (max-width: $xsmall) {
+  /* Header
+  -------------------------------------------------------------- */
+
+  .header__logo:link,
+  .header__logo:visited {
+    width: 12rem;
+    font-size: 2rem;
+    line-height: 1.2em;
+  }
+
+  /* Pagination
+  -------------------------------------------------------------- */
+
+  .pagination {
+    padding-top: 5rem;
+  }
+
+  .pagination > .container {
+    width: 100%;
+  }
+
+  /* Home
+  -------------------------------------------------------------- */
+
+  .home-head__title {
+    font-size: 4.5rem;
+  }
+
+  .home-head__title .glitch::before,
+  .home-head__title .glitch::after {
+    content: none;
+  }
+
+  .home-head__subtitle {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+  }
+
+  /* Catalog
+  -------------------------------------------------------------- */
+
+  .catalog-head {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .catalog-head__title {
+    font-size: 4.5rem;
+  }
+
+  .catalog-head__title--primary {
+    margin-right: 1rem;
+  }
+
+  .catalog-head__title--secondary {
+    font-size: 2.3rem;
+  }
+
+  .catalog-item__album {
+    font-size: 1.7rem;
+  }
+
+  .catalog-item__artist {
+    margin-top: .3rem;
+    font-size: 1.4rem;
+  }
+
+  /* Album
+  -------------------------------------------------------------- */
+
+  .album-layout {
+    display: block;
+    text-align: center;
+  }
+
+  .album-cover {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    width: inherit;
+  }
+
+  .album-infos {
+    padding-top: 0;
+  }
+
+  .album-tags,
+  .album-links__list {
+    justify-content: center;
+  }
+
+  .album-tags,
+  .album-links {
+    margin-top: 2rem;
+  }
+}

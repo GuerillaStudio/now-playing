@@ -1,0 +1,19 @@
+/* ----------------------------------------------------------- */
+/* == content */
+/* ----------------------------------------------------------- */
+
+.content {
+  border-top: 6rem solid $color-bg-head;
+}
+
+.content > :first-child {
+  margin-top: -6rem;
+}
+
+
+.content-title {
+  margin: 0;
+  margin-top: 1.3rem;
+  margin-bottom: 5rem;
+  font-size: 5rem;
+}

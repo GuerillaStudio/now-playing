@@ -2,7 +2,7 @@
 title: Play with Fire
 artist: The Reign of Kindo
 date: 2018-12-06T02:09:10.555Z
-cover: /img/tumblr_oe04o4ghjq1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oe04o4ghjq1vfaqyoo1_1280.jpg
 styles:
   - Indie Rock
   - Jazz Rock

@@ -2,7 +2,7 @@
 title: Pandora’s Piñata
 artist: Diablo Swing Orchestra
 date: 2018-12-15T02:09:10.564Z
-cover: /img/tumblr_oyciocxvyi1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_oyciocxvyi1vfaqyoo1_1280.jpg
 styles:
   - Progressive Metal
   - Swing Revival

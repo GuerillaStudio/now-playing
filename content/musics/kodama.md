@@ -2,7 +2,7 @@
 title: Kodama
 artist: Alcest
 date: 2018-12-09T02:09:10.558Z
-cover: /img/tumblr_ojq31iv6eu1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_ojq31iv6eu1vfaqyoo1_1280.jpg
 styles:
   - Post-Black Metal
   - Black Metal

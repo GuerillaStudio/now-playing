@@ -2,7 +2,7 @@
 title: For House Cats And Sea Fans
 artist: Elysian Fields
 date: 2018-12-10T02:09:10.559Z
-cover: /img/tumblr_ojdjzqyaxo1vfaqyoo1_1280.jpg
+cover: /upload/tumblr_ojdjzqyaxo1vfaqyoo1_1280.jpg
 styles:
   - Indie
   - Chillout

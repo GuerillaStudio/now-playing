@@ -1,0 +1,27 @@
+//
+// (TEXT) PARAMS
+// =================
+// 1. Namespace
+// 2. Intensity
+// 3. Text color
+// 4. Background color (flat)
+// 5. Highlight #1 color
+// 6. Highlight #2 color
+// 7. Width (px)
+// 8. Height (px)
+//
+
+.glitch,
+.glitch--hover:hover {
+  position: relative;
+
+  @include textGlitch("glitchText", 50, $color-bg-head, red, blue, 9999, 100);
+}
+
+
+.glitch:nth-child(2)::after,
+.glitch--hover:hover:nth-child(2)::after,
+.glitch:nth-child(2)::before,
+.glitch--hover:hover:nth-child(2)::before {
+  animation-delay: .3s;
+}
