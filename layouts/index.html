@@ -1,33 +1,72 @@
 {{ define "main" }}
-<main>
-    <div class="home-head">
-      <div class="container">
-        <div class="home-head__container">
-          <h1 class="home-head__title" data-text="Handpicked Albums">
-            <span class="glitch" data-text="Handpicked">Handpicked</span> <span class="glitch" data-text="Albums">Albums</span>
-          </h1>
-          <p class="home-head__subtitle">by the Glitch Family</p>
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+  <main>
+    {{ if .IsHome | (not $paginator.HasPrev) }}
+      <div class="home-head">
+        <div class="container">
+          <div class="home-head__container">
+            <h1 class="home-head__title" data-text="Handpicked Albums">
+              <span class="glitch" data-text="Handpicked">Handpicked</span> <span class="glitch" data-text="Albums">Albums</span>
+            </h1>
+            <p class="home-head__subtitle">by the Glitch Family</p>
+          </div>
         </div>
       </div>
+    {{ else }}
+    <div class="catalog-head">
+      <div class="container">
+        <h1 class="catalog-head__title">
+          <span class="catalog-head__title--primary">Albums</span>
+          <span class="catalog-head__title--secondary">Page {{ $paginator.PageNumber }}</span>
+        </h1>
+      </div>
     </div>
+    {{ end }}
+
 
     <!-- Album list -->
     <div class="content">
       <div class="container">
-        {{ partial "musics" . }}
+        <div class="grid grid-catalog">
+          {{ range sort $paginator.Pages "Date" "desc" }}
+            {{ $original := resources.Get .Params.cover }}
+            {{ $cover := $original.Resize "x320" }}
+            {{ $cover2x := $original.Resize "x640" }}
+            {{ $placeholder := $cover.Resize "x1" }}
+            <div class="catalog-item">
+              <a class="catalog-item__content" href="{{ .Permalink }}">
+                <h2 class="catalog-item__album">{{ .Title }}</h2>
+                <div class="catalog-item__artist">by {{ .Params.artist }}</div>
+                  <img
+                  class="catalog-item__visual"
+                  width="320"
+                  height="320"
+                  style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
+                  src="{{ $cover.Permalink }}"
+                  srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x"
+                  alt="{{ .Title }} album's cover'"
+                  title="{{ .Title }} album's cover'"
+                  >
+              </a>
+            </div>
+          {{ end }}
+        </div>
+
         {{ partial "pagination" . }}
       </div>
     </div>
     <!-- About  -->
-    <section class="home-about">
-      <div class="container">
-        <h2 class="visually-hidden">About</h2>
-        <p>At Glitch Family we love music, I mean we LOVE music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums that are dear to us.</p>
-        <p>
-          This is Now Playing.<br>
-          A Glitch Family’s project.
-        </p>
-      </div>
-    </section>
+    {{ if not $paginator.HasPrev }}
+      <section class="home-about">
+        <div class="container">
+          <h2 class="visually-hidden">About</h2>
+          <p>At Glitch Family we love music, I mean we LOVE music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums that are dear to us.</p>
+          <p>
+            This is Now Playing.<br>
+            A Glitch Family’s project.
+          </p>
+        </div>
+      </section>
+    {{ end }}
   </main>
 {{ end }}

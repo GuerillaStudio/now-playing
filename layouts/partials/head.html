@@ -28,6 +28,6 @@
   <meta name="twitter:description" content="Handpicked Albums by the Glitch Family" />
 
   {{ $sass := resources.Get "/scss/style.scss" }}
-  {{ $style := $sass | resources.ToCSS }}
+  {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>

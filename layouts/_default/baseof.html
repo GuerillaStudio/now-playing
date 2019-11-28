@@ -8,5 +8,11 @@
     {{ block "main" . }}{{ end }}
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+    {{ $mobilemenu := resources.Get "js/menu.js" }}
+    {{ $randomizer := resources.Get "js/random.js" }}
+    {{ $js := slice $mobilemenu $randomizer | resources.Concat "js/bundle.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+    <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
   </body>
 </html>

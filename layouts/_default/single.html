@@ -1,0 +1,82 @@
+{{ define "main" }}
+<main>
+  <div class="album">
+    <div class="container">
+      <div class="album-layout">
+        <div class="album-cover">
+          {{ $original := resources.Get .Params.cover }}
+          {{ $coverSmall := $original.Resize "x250" }}
+          {{ $coverMedium := $original.Resize "x500" }}
+          {{ $coverBig := $original.Resize "x1000" }}
+          {{ $placeholder := $original.Resize "x1" }}
+          <img
+            class="album-cover__visual"
+            width="500"
+            height="500"
+            style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
+            src="{{ $coverMedium.Permalink }}"
+            srcset="{{ $coverSmall.Permalink }} 250w, {{ $coverMedium.Permalink }} 500w, {{ $coverBig.Permalink }} 1000w"
+            alt="{{ .Title }} album's cover"
+            title=":)"
+          >
+        </div>
+        <div class="album-infos">
+          <h1 class="album-name">{{ .Title }}</h1>
+          <strong class="album-artist">by {{ .Params.artist }}</strong>
+          <ul class="album-tags">
+            {{ range .Params.styles }}
+              <li class="album-tags__item">{{ . }}</li>
+            {{ end }}
+          </ul>
+
+          <div class="album-links">
+            Listen on&nbsp;:
+            {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.googleplay | or .Params.links.deezer) }}
+            <div>
+              There are no links (for now~)
+            </div>
+            {{ else }}
+              <div class="album-links__list">
+                {{ if .Params.links.spotify }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Spotify" data-tooltip="Spotify" href="{{ .Params.links.spotify }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/spotify" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.youtube }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Youtube" data-tooltip="Youtube" href="{{ .Params.links.youtube }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/youtube" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.applemusic }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Apple Music" data-tooltip="Apple Music" href="{{ .Params.links.applemusic }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/applemusic" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.soundcloud }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Soundcloud" data-tooltip="Soundcloud" href="{{ .Params.links.soundcloud }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/soundcloud" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.bandcamp }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Bandcamp" data-tooltip="Bandcamp" href="{{ .Params.links.bandcamp }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/bandcamp" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.googleplay }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Google Play" data-tooltip="Google Play" href="{{ .Params.links.googleplay }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/googleplay" .}}
+                </a>
+                {{ end }}
+                {{ if .Params.links.deezer }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Deezer" data-tooltip="Deezer" href="{{ .Params.links.deezer }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/deezer" .}}
+                </a>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+    </div>
+  </div>
+</main>
+{{ end }}
