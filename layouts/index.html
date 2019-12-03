@@ -35,6 +35,7 @@
         <div class="grid grid-catalog">
           {{ range sort $paginator.Pages "Date" "desc" }}
             {{ $original := resources.Get .Params.cover }}
+            {{ $originalPermalink := $original.Permalink }}
             {{ $cover := $original.Resize "x320" }}
             {{ $cover2x := $original.Resize "x640" }}
             {{ $placeholder := $cover.Resize "x1" }}

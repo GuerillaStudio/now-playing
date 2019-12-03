@@ -1,3 +1,6 @@
+[context.production.environment]
+  HUGO_ENV = "production"
+
 [[headers]]
   for = "/*"
   [headers.values]

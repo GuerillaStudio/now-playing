@@ -1,0 +1,106 @@
+{
+    "backend": {
+        "name": "git-gateway"
+    },
+    "media_folder": "assets/upload",
+    "public_folder": "/upload",
+    "collections": [
+        {
+            "editor":  {
+                "preview": false
+            },
+            "create": true,
+            "name": "musics",
+            "label": "Albums",
+            "format": "frontmatter",
+            "folder": "content/musics",
+            "fields": [
+                {
+                    "name": "title",
+                    "label": "Name",
+                    "widget": "string"
+                },
+                {
+                    "name": "artist",
+                    "label": "Artist",
+                    "widget": "string"
+                },
+                {
+                    "name": "date",
+                    "label": "Date",
+                    "widget": "datetime"
+                },
+                {
+                    "name": "cover",
+                    "label": "Album Cover",
+                    "widget": "image",
+                    "allow_multiple": false
+                },
+                {
+                    "name": "styles",
+                    "label": "Styles",
+                    "widget": "list",
+                    "allow_add": true
+                },
+                {
+                    "name": "links",
+                    "label": "Links",
+                    "widget": "object",
+                    "allow_add": true,
+                    "fields": [
+                        {
+                            "name": "spotify",
+                            "label": "Spotify",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "youtube",
+                            "label": "Youtube",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "applemusic",
+                            "label": "Apple Music",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "soundcloud",
+                            "label": "SoundCloud",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "bandcamp",
+                            "label": "Bandcamp",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "googleplay",
+                            "label": "Google Play",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        },
+                        {
+                            "name": "deezer",
+                            "label": "Deezer",
+                            "widget": "string",
+                            "default": "",
+                            "required": false
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}
