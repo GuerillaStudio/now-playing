@@ -48,6 +48,14 @@
 
     {{ partial "footer" . }}
 
+    <script>
+      window.albumsUrls = [
+        {{ range where .Site.RegularPages "Type" "in" "musics" }}
+          "{{ .Permalink}}",
+        {{ end }}
+      ]
+    </script>
+
     {{ $mobilemenu := resources.Get "js/menu.js" }}
     {{ $randomizer := resources.Get "js/random.js" }}
     {{ $js := slice $mobilemenu $randomizer | resources.Concat "js/bundle.js" }}
