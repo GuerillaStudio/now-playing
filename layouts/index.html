@@ -1,6 +1,7 @@
 {{ define "metaTitle" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}
   <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by the Glitch Family{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
+  <meta name="description" content="Handpicked Albums by the Glitch Family">
 {{ end }}
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}

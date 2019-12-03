@@ -1,5 +1,6 @@
 {{ define "metaTitle" }}
   <title>{{ .Title }} ∴ {{ .Site.Title }}</title>
+  <meta name="description" content="Listen to this album on Now Playing">
 {{ end }}
 {{ define "metaSocial" }}
   {{ $original := resources.Get .Params.cover }}
