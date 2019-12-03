@@ -37,7 +37,8 @@
 
     {{ $sass := resources.Get "/scss/style.scss" }}
     {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $secureStyle := $style | resources.Fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $secureStyle.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
   </head>
 
   <body class="sans-serif">
@@ -51,7 +52,7 @@
     <script>
       window.albumsUrls = [
         {{ range where .Site.RegularPages "Type" "in" "musics" }}
-          "{{ .Permalink}}",
+          "{{ .Permalink }}",
         {{ end }}
       ]
     </script>
