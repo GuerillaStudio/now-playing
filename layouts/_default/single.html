@@ -1,6 +1,26 @@
 {{ define "metaTitle" }}
   <title>{{ .Title }} ∴ {{ .Site.Title }}</title>
 {{ end }}
+{{ define "metaSocial" }}
+  {{ $original := resources.Get .Params.cover }}
+  {{ $cover := $original.Resize "x1000" }}
+  <!-- opengraph -->
+  <meta property="og:type" content="music.album">
+  <meta property="og:title" content="{{ .Title }} by {{ .Params.artist }}">
+  <meta property="og:description" content="Listen to this album on Now Playing">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $cover.Permalink }}">
+  <meta property="og:image:height" content="1000">
+  <meta property="og:image:width" content="1000">
+  <meta property="music:musician" content="{{ .Params.artist }}">
+  <meta property="music:song:url" content="{{ .Permalink }}">
+
+  <!-- twitter card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ .Title }} by {{ .Params.artist }}" />
+  <meta name="twitter:description" content="Listen to this album on Now Playing" />
+  <meta name="twitter:image" content="{{ $cover.Permalink }}" />
+{{ end }}
 {{ define "main" }}
 <main>
   <div class="album">
