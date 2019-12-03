@@ -11,7 +11,7 @@
       </div>
     </div>
     <nav class="navigation" data-menu="navigation">
-      <a class="navigation__item active" href="/">Latest</a>
+      <a class="navigation__item {{ if .IsHome }}active{{ end }}" href="/">Latest</a>
       <button class="navigation__item" data-random="btn">Random</button>
     </nav>
     <div class="navigation__mobileOverlay" data-menu="overlay"></div>
