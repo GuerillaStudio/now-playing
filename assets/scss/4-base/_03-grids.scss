@@ -25,10 +25,6 @@ $grid-mb: 2rem;
   @include unequalGrid(1, 3, $grid-gutter, 2rem);
 }
 
-.grid-1-3 {
-  @include unequalGrid(1, 3, $grid-gutter, 2rem);
-}
-
 .grid-catalog {
   @include grid(4, $grid-gutter, 6rem);
 }

@@ -13,8 +13,6 @@
 
 .glitch,
 .glitch--hover:hover {
-  position: relative;
-
   @include textGlitch("glitchText", 50, $color-bg-head, red, blue, 9999, 100);
 }
 
