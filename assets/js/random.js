@@ -17,7 +17,7 @@ class GoRandomAlbum {
   }
 
   getRandomUrl() {
-    const index = Math.floor(Math.random()*(this.urls.length+1));
+    const index = Math.floor(Math.random()*(this.urls.length));
     window.location.href = this.urls[index]
   }
 }
