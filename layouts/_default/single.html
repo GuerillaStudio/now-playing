@@ -27,23 +27,26 @@
   <div class="album">
     <div class="container">
       <div class="album-layout">
-        <div class="album-cover">
+        <picture class="album-cover">
           {{ $original := resources.Get .Params.cover }}
           {{ $coverSmall := $original.Resize "x250" }}
           {{ $coverMedium := $original.Resize "x500" }}
           {{ $coverBig := $original.Resize "x1000" }}
           {{ $placeholder := $original.Resize "x1" }}
+          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 427px)">
+          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(max-width: 480px)">
+          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 647px)">
+          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(min-width: 647px)">
           <img
             class="album-cover__visual"
             width="500"
             height="500"
             style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
             src="{{ $coverMedium.Permalink }}"
-            srcset="{{ $coverSmall.Permalink }} 250w, {{ $coverMedium.Permalink }} 500w, {{ $coverBig.Permalink }} 1000w"
             alt="{{ .Title }} album's cover"
             title=":)"
           >
-        </div>
+        </picture>
         <div class="album-infos">
           <h1 class="album-name">{{ .Title }}</h1>
           <strong class="album-artist">by {{ .Params.artist }}</strong>

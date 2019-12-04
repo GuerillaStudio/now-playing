@@ -4,3 +4,6 @@ title = "Now Playing"
 mainSections = ["musics"]
 paginate = 16
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[imaging]
+quality = 95
