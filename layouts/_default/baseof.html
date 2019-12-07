@@ -34,6 +34,9 @@
       <meta name="twitter:description" content="Handpicked Albums by the Glitch Family" />
     {{ end }}
 
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 
     {{ $sass := resources.Get "/scss/style.scss" }}
     {{ $style := $sass | resources.ToCSS | minify | fingerprint }}

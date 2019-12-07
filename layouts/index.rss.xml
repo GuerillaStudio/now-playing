@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Handpicked Albums by the Glitch Family</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
+    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ $albums := (where .Site.RegularPages "Section" "musics") }}
+    {{ range sort $albums "Date" "desc" }}
+    {{ $original := resources.Get .Params.cover }}
+    {{ $originalPermalink := $original.Permalink }}
+    {{ $cover := $original.Resize "x320" }}
+    <item>
+      <title>"{{ .Title }}" by {{ .Params.artist }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <author><name>{{ .Params.artist }}</name></author>
+      <guid>{{ .Permalink }}</guid>
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ $cover.Permalink }}" height="320" width="320" />
+      <link rel="enclosure" type="image/png" length="320" href="{{ $cover.Permalink }}"/>
+      <description type="html">
+        {{ printf "<![CDATA[" | safeHTML }}
+        Listen this album on:
+        {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.googleplay | or .Params.links.deezer) }}
+        <div>
+          There are no links (for now~)
+        </div>
+        {{ else }}
+          <div class="album-links__list">
+            {{ if .Params.links.spotify }}
+            <div>
+              Spotify: <a href="{{ .Params.links.spotify }}">{{ .Params.links.spotify }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.youtube }}
+            <div>
+              Youtube: <a href="{{ .Params.links.youtube }}">{{ .Params.links.youtube }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.applemusic }}
+            <div>
+              Apple Music: <a href="{{ .Params.links.applemusic }}">{{ .Params.links.applemusic }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.soundcloud }}
+            <div>
+              Soundcloud: <a href="{{ .Params.links.soundcloud }}">{{ .Params.links.soundcloud }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.bandcamp }}
+            <div>
+              Bandcamp: <a href="{{ .Params.links.bandcamp }}">{{ .Params.links.bandcamp }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.googleplay }}
+            <div>
+              Google Play: <a href="{{ .Params.links.googleplay }}">{{ .Params.links.googleplay }}</a></a>
+            </div>
+            {{ end }}
+            {{ if .Params.links.deezer }}
+            <div>
+              Deezer: <a href="{{ .Params.links.deezer }}">{{ .Params.links.deezer }}</a></a>
+            </div>
+            {{ end }}
+          </div>
+          <br/>
+          <img src="{{ $cover.Permalink }}" />
+          {{ printf "]]>" | safeHTML }}
+        {{ end }}
+      </description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
