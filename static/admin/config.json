@@ -12,7 +12,7 @@
             },
             "create": true,
             "name": "musics",
-            "label": "Albums",
+            "label": "Album",
             "format": "frontmatter",
             "folder": "content/musics",
             "fields": [
