@@ -1,6 +1,7 @@
 {
     "backend": {
-        "name": "git-gateway"
+        "name": "github",
+        "repo": "GlitchFamily/now-playing"
     },
     "media_folder": "assets/upload",
     "public_folder": "/upload",
