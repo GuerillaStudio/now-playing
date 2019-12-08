@@ -20,7 +20,6 @@
       <title>"{{ .Title }}" by {{ .Params.artist }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      <author><name>{{ .Params.artist }}</name></author>
       <guid>{{ .Permalink }}</guid>
       <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ $cover.Permalink }}" height="320" width="320" />
       <link rel="enclosure" type="image/png" length="320" href="{{ $cover.Permalink }}"/>
