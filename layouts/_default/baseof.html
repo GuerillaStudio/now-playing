@@ -34,16 +34,17 @@
       <meta name="twitter:description" content="Handpicked Albums by the Glitch Family" />
     {{ end }}
 
-    {{ with .OutputFormats.Get "rss" -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ with .Site.GetPage "/" }}
+      {{ with .OutputFormats.Get "rss" }}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+      {{ end }}
+    {{ end }}
 
     {{ $sass := resources.Get "/scss/style.scss" }}
     {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
     {{ $secureStyle := $style | resources.Fingerprint "sha512" }}
     <link rel="stylesheet" href="{{ $secureStyle.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
   </head>
-
   <body class="sans-serif">
 
     {{ partial "header" . }}

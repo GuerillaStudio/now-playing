@@ -12,8 +12,10 @@
     </div>
     <nav class="navigation" data-menu="navigation">
       <a class="navigation__item {{ if .IsHome }}active{{ end }}" href="/">Latest</a>
-      {{ with .OutputFormats.Get "RSS" }}
-      <a class="navigation__item" href="{{ .RelPermalink }}">RSS</a>
+      {{ with .Site.GetPage "/" }}
+        {{ with .OutputFormats.Get "RSS" }}
+          <a class="navigation__item" href="{{ .RelPermalink }}">RSS</a>
+        {{ end }}
       {{ end }}
       <button class="navigation__item" data-random="btn">Random</button>
     </nav>
