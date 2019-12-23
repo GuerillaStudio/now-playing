@@ -45,7 +45,7 @@
     {{ $secureStyle := $style | resources.Fingerprint "sha512" }}
     <link rel="stylesheet" href="{{ $secureStyle.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
   </head>
-  <body class="sans-serif">
+  <body>
 
     {{ partial "header" . }}
 
