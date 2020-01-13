@@ -1,5 +1,13 @@
+[build]
+  publish = "public"
+  command = "hugo -b $URL"
+
 [context.production.environment]
   HUGO_ENV = "production"
+  command = "hugo -b $URL"
+
+[context.deploy-preview]
+  command = "hugo -b $DEPLOY_PRIME_URL"
 
 [[headers]]
   for = "/*"
