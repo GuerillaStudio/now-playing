@@ -5,7 +5,6 @@ date: 2020-02-07T09:54:51.698Z
 cover: /upload/age-of-unreason-bad-religion_1200x1200_q90_crop.jpg
 styles:
   - punk
-  - ''
 links:
   applemusic: 'https://music.apple.com/us/album/age-of-unreason/1485074521?uo=4'
   bandcamp: ''
