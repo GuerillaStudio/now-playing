@@ -17,9 +17,11 @@
     X-Content-Type-Options = "nosniff"
 
 [[redirects]]
+  force = true
   from = "/musics"
   to = "/"
 
 [[redirects]]
+  force = true
   from = "/page:*"
   to = "/page/:splat"
