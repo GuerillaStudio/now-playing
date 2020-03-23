@@ -21,4 +21,9 @@
   .catalog-item__content:focus .catalog-item__visual {
     transform: none;
   }
+
+  .coverGlitch,
+  .coverGlitchSimpleHover:hover {
+    animation: none;
+  }
 }

@@ -23,3 +23,62 @@
 .glitch--hover:hover:nth-child(2)::before {
   animation-delay: .3s;
 }
+
+.coverGlitch {
+  animation: coverTransform 2.5s steps(10) infinite, coverGlitch 3.2s infinite;
+}
+
+.coverGlitchSimpleHover:hover {
+  animation: coverGlitch 3.2s infinite;
+}
+
+.coverGlitch-svgFilter {
+  position: absolute;
+  visibility: hidden;
+  width: .1rem;
+  height: .1rem;
+}
+
+@keyframes coverGlitch {
+  45% {
+    filter: none;
+  }
+  46% {
+    filter: url(#dist-01);
+  }
+  47% {
+    filter: url(#dist-02);
+  }
+  48% {
+    filter: url(#dist-03);
+  }
+  50% {
+    filter: none;
+  }
+  95% {
+    filter: none;
+  }
+  96% {
+    filter: url(#dist-02);
+  }
+  97% {
+    filter: url(#dist-04);
+  }
+}
+@keyframes coverTransform {
+  0% {
+    transform: translate(-1%, -1%) scale(1.005);
+  }
+  1% {
+    transform: none;
+  }
+  88% {
+    transform: none;
+  }
+  89% {
+    transform: translate(1%, 2%) scale(1.005);
+  }
+  90% {
+    transform: none;
+  }
+}

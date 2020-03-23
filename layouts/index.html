@@ -44,7 +44,7 @@
                 <h2 class="catalog-item__album">{{ .Title }}</h2>
                 <div class="catalog-item__artist">by {{ .Params.artist }}</div>
                   <img
-                  class="catalog-item__visual"
+                  class="catalog-item__visual coverGlitchSimpleHover"
                   width="320"
                   height="320"
                   style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
@@ -75,4 +75,7 @@
       </section>
     {{ end }}
   </main>
+
+  {{ partial "cover-glitch-svg-filter" .}}
+
 {{ end }}

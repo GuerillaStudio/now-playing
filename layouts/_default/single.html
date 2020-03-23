@@ -38,7 +38,7 @@
           <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 647px)">
           <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(min-width: 647px)">
           <img
-            class="album-cover__visual"
+            class="album-cover__visual coverGlitch"
             width="500"
             height="500"
             style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
@@ -105,5 +105,8 @@
         </div>
     </div>
   </div>
+
+  {{ partial "cover-glitch-svg-filter" .}}
+
 </main>
 {{ end }}
