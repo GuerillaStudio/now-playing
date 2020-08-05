@@ -6,27 +6,6 @@
     <title>Admin</title>
   </head>
   <body>
-    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/netlify-cms-default-exports@2.2.1/dist/netlify-cms-default-exports.js"></script>
-    <script src="https://unpkg.com/netlify-cms-app@2.10.0-beta.2/dist/netlify-cms-app.js"></script>
-    <script src="https://unpkg.com/netlify-cms-backend-fs@0.4.4/dist/index.js"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-      var appEnv = {{ getenv "HUGO_ENV" }}
-      main()
-      async function main() {
-        const config = await fetch('config.json').then(response => response.json())
-        config.load_config_file = false
-        if (!appEnv) {
-          NetlifyCmsApp.registerBackend('file-system', FileSystemBackendClass)
-          config.backend = {
-            name: 'file-system',
-            api_root: 'http://localhost:4242/api'
-          }
-        }
-        NetlifyCmsApp.init({ config })
-      }
-    </script>
+    <script src="https://unpkg.com/netlify-cms@2.10.55/dist/netlify-cms.js"></script>
   </body>
 </html>

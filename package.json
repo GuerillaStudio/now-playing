@@ -2,14 +2,8 @@
   "name": "now-playing",
   "version": "1.0.0",
   "description": " Handpicked Albums by the Glitch Family",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GlitchFamily/now-playing.git"
-  },
-  "devDependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "netlify-cms-backend-fs": "^0.4.4"
   }
 }
