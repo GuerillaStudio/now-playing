@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}
   <main>
-    {{ if .IsHome | (not $paginator.HasPrev) }}
+    {{ if and .IsHome (not $paginator.HasPrev) }}
       <div class="home-head">
         <div class="container">
           <div class="home-head__container">
