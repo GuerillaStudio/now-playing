@@ -43,6 +43,7 @@
             height="500"
             style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
             src="{{ $coverMedium.Permalink }}"
+            loading="lazy"
             alt="{{ .Title }} album's cover"
             title=":)"
           >
