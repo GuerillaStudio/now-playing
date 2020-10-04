@@ -1,0 +1,17 @@
+---
+title: STRENGTH IN NUMB333RS
+artist: FEVER 333
+date: 2020-10-04T20:30:45.988Z
+cover: /upload/strength-in-numb333rs-fever-333.jpg
+styles:
+  - Rap Rock
+  - Rapcore
+links:
+  spotify: https://play.spotify.com/album/5PvosHtqCuqLK8A131lGZf
+  youtube: https://music.youtube.com/playlist?list=OLAK5uy_k2sI9KPddXiy8mkM1I0IHdKCKzmMPBoAc
+  applemusic: https://music.apple.com/us/album/strength-in-numb333rs/1441326645?uo=4
+  soundcloud: https://soundcloud.com/thefever333-music/sets/strength-in-numb333rs
+  bandcamp: ""
+  googleplay: https://play.google.com/music/m/Bggwejdmdod4f4qzw6ax743dugq?signup_if_needed=1
+  deezer: https://www.deezer.com/album/84434502
+---
