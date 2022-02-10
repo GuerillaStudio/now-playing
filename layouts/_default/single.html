@@ -29,9 +29,9 @@
       <div class="album-layout">
         <picture class="album-cover">
           {{ $original := resources.Get .Params.cover }}
-          {{ $coverSmall := $original.Resize "x250" }}
-          {{ $coverMedium := $original.Resize "x500" }}
-          {{ $coverBig := $original.Resize "x1000" }}
+          {{ $coverSmall := $original.Resize "x250 webp" }}
+          {{ $coverMedium := $original.Resize "x500 webp" }}
+          {{ $coverBig := $original.Resize "x1000 webp" }}
           {{ $placeholder := $original.Resize "x1" }}
           <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 427px)">
           <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(max-width: 480px)">

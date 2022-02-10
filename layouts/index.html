@@ -36,9 +36,9 @@
           {{ range sort $paginator.Pages "Date" "desc" }}
             {{ $original := resources.Get .Params.cover }}
             {{ $originalPermalink := $original.Permalink }}
-            {{ $cover := $original.Resize "x320" }}
-            {{ $cover2x := $original.Resize "x640" }}
-            {{ $placeholder := $cover.Resize "x1" }}
+            {{ $cover := $original.Resize "x320 webp" }}
+            {{ $cover2x := $original.Resize "x640 webp" }}
+            {{ $placeholder := $cover.Resize "x1 png" }}
             <div class="catalog-item">
               <a class="catalog-item__content" href="{{ .Permalink }}">
                 <h2 class="catalog-item__album">{{ .Title }}</h2>
