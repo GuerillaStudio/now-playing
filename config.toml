@@ -10,4 +10,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 quality = 95
 [security]
     [security.funcs]
-    getenv = [ "^HUGO_", "CONTEXT" ]
+    getenv = [ "^HUGO_", "CONTEXT", "URL" ]
