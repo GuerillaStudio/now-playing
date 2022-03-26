@@ -8,3 +8,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [imaging]
 quality = 95
+[security]
+    [security.funcs]
+    getenv = [ "^HUGO_", "CONTEXT" ]
