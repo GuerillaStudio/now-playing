@@ -1,7 +1,7 @@
 baseURL = "http://127.0.0.1:8080/"
 languageCode = "en-us"
 title = "Now Playing"
-author = "the Glitch Family"
+author = "Glitch.Family"
 mainSections = ["musics"]
 paginate = 16
 disableKinds = ["taxonomy", "taxonomyTerm"]

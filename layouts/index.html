@@ -1,7 +1,7 @@
 {{ define "metaTitle" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}
-  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by the Glitch Family{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
-  <meta name="description" content="Handpicked Albums by the Glitch Family">
+  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by the Glitch.Family{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
+  <meta name="description" content="Handpicked Albums by the Glitch.Family">
 {{ end }}
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}
@@ -13,7 +13,7 @@
             <h1 class="home-head__title" data-text="Handpicked Albums">
               <span class="glitch" data-text="Handpicked">Handpicked</span> <span class="glitch" data-text="Albums">Albums</span>
             </h1>
-            <p class="home-head__subtitle">by the Glitch Family</p>
+            <p class="home-head__subtitle">by the Glitch.Family</p>
           </div>
         </div>
       </div>
@@ -67,10 +67,10 @@
       <section class="home-about">
         <div class="container">
           <h2 class="visually-hidden">About</h2>
-          <p>At Glitch Family we love music, I mean we LOVE music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums that are dear to us.</p>
+          <p>At Glitch.Family we love music, I mean we LOVE music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums dear to us.</p>
           <p>
             This is Now Playing.<br>
-            A Glitch Family’s project.
+            A Glitch.Family's project.
           </p>
         </div>
       </section>

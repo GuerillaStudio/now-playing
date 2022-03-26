@@ -1,7 +1,7 @@
 {
   "name": "now-playing",
   "version": "1.0.0",
-  "description": " Handpicked Albums by the Glitch Family",
+  "description": " Handpicked Albums by the Glitch.Family",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GlitchFamily/now-playing.git"

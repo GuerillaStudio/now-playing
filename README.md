@@ -1,6 +1,6 @@
 # Now Playing
 
-Handpicked Albums by the Glitch Family
+Handpicked Albums by the Glitch.Family
 
 
 ## Project setup
