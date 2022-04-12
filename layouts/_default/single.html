@@ -59,7 +59,7 @@
 
           <div class="album-links">
             Listen on&nbsp;:
-            {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.googleplay | or .Params.links.deezer) }}
+            {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.deezer) }}
             <div>
               There are no links (for now~)
             </div>
@@ -88,11 +88,6 @@
                 {{ if .Params.links.bandcamp }}
                 <a class="album-links__item tooltip tooltip--bottom" aria-label="Bandcamp" data-tooltip="Bandcamp" href="{{ .Params.links.bandcamp }}" target="_blank" rel="noreferrer">
                   {{ partial "social/bandcamp" .}}
-                </a>
-                {{ end }}
-                {{ if .Params.links.googleplay }}
-                <a class="album-links__item tooltip tooltip--bottom" aria-label="Google Play" data-tooltip="Google Play" href="{{ .Params.links.googleplay }}" target="_blank" rel="noreferrer">
-                  {{ partial "social/googleplay" .}}
                 </a>
                 {{ end }}
                 {{ if .Params.links.deezer }}

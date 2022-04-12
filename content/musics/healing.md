@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/healing/1206416305?uo=4
   soundcloud: ""
   bandcamp: https://inlovewithaghost.bandcamp.com/album/healing
-  googleplay: https://play.google.com/music/m/Bj45xjkppvdhucaajl5iivrfuhq?signup_if_needed=1
   deezer: https://www.deezer.com/album/15402093
 ---

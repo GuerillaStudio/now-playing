@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/the-other-side/1004301530?uo=4
   soundcloud: ""
   bandcamp: https://lukhash.bandcamp.com/album/the-other-side
-  googleplay: https://play.google.com/music/m/Bnjkbnxj6xk3qnipvcmtrni4h5y?signup_if_needed=1
   deezer: https://www.deezer.com/album/10603786
 ---

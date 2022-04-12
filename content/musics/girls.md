@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/girls/1526317112?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/164394562
 ---

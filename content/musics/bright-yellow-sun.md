@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/bright-yellow-sun-single/1510899197?uo=4
   soundcloud: https://soundcloud.com/amtaylormusic/driving-ontheedgeofnight
   bandcamp: https://amtaylor.bandcamp.com/track/bright-yellow-sun
-  googleplay: ""
   deezer: https://www.deezer.com/album/144370782
 ---

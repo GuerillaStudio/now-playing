@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/scary-world/1382730510?uo=4
   soundcloud: ""
   bandcamp: https://nightclubband.com/album/scary-world
-  googleplay: https://play.google.com/music/m/Bznf4ifaweezbgzagxnyn5kb7aa?signup_if_needed=1
   deezer: https://www.deezer.com/album/63303952
 ---

@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/prequelle/1368196699?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bflsvguw4gh3la64fbiavzvansm?signup_if_needed=1
   deezer: https://www.deezer.com/album/64572462
 ---

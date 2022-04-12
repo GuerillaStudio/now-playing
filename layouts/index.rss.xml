@@ -26,7 +26,7 @@
       <description type="html">
         {{ printf "<![CDATA[" | safeHTML }}
         Listen this album on:
-        {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.googleplay | or .Params.links.deezer) }}
+        {{ if not (.Params.links.spotify | or .Params.links.youtube | or .Params.links.applemusic | or .Params.links.soundcloud | or .Params.links.bandcamp | or .Params.links.deezer) }}
         <div>
           There are no links (for now~)
         </div>
@@ -55,11 +55,6 @@
             {{ if .Params.links.bandcamp }}
             <div>
               Bandcamp: <a href="{{ .Params.links.bandcamp }}">{{ .Params.links.bandcamp }}</a></a>
-            </div>
-            {{ end }}
-            {{ if .Params.links.googleplay }}
-            <div>
-              Google Play: <a href="{{ .Params.links.googleplay }}">{{ .Params.links.googleplay }}</a></a>
             </div>
             {{ end }}
             {{ if .Params.links.deezer }}

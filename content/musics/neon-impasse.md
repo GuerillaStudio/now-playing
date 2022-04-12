@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/neon-impasse/1396662779?uo=4
   soundcloud: https://soundcloud.com/citygrl/tracks
   bandcamp: https://city-girl.bandcamp.com/album/neon-impasse
-  googleplay: https://play.google.com/music/m/Bzmgazcsdqjvogf4qzp6vcwgwpa?signup_if_needed=1
   deezer: ""
 ---

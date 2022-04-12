@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/transgender-dysphoria-blues/1210620116?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bsfdh2vfcptmmabxewzwbht3ray?signup_if_needed=1
   deezer: https://www.deezer.com/album/15489828
 ---

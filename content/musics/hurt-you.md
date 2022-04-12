@@ -12,6 +12,5 @@ links:
   applemusic: ""
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/246661682
 ---

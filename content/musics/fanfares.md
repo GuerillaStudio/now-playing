@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/fanfares/572204164?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bqgh3itxe2pi3sy5dk6dc4cfu4u?signup_if_needed=1
   deezer: https://www.deezer.com/album/6022301
 ---

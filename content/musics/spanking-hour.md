@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/spanking-hour/634082068?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bee3wxisbxzds27jg73bo2qtaza?signup_if_needed=1
   deezer: https://www.deezer.com/album/6500218
 ---

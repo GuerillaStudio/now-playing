@@ -66,11 +66,6 @@ collections:
       widget: string
       default: ''
       required: false
-    - name: googleplay
-      label: Google Play
-      widget: string
-      default: ''
-      required: false
     - name: deezer
       label: Deezer
       widget: string

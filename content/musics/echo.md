@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/eco/1030973508?uo=4
   soundcloud: ""
   bandcamp: https://davidmaximmicic.bandcamp.com/album/eco
-  googleplay: https://play.google.com/music/m/B7p2jjaaivuzfxok4oqgfxpn2ze?signup_if_needed=1
   deezer: https://www.deezer.com/album/11025012
 ---

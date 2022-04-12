@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/destrier/1349662969?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bblwxe55j7zb2nhq4vuhx2mrmxu?signup_if_needed=1
   deezer: https://www.deezer.com/album/57187212
 ---

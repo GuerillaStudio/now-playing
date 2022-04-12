@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/17-deutsche-t%C3%A4nze/857626040?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bnxprkzeiaxwhf5nofakamlu5la?signup_if_needed=1
   deezer: https://www.deezer.com/album/7689072
 ---

@@ -13,6 +13,5 @@ links:
   applemusic: https://geo.music.apple.com/fr/album/_/1525772884?mt=1&app=music&ls=1&at=1000lHKX&ct=odesli_http&itscg=30200&itsct=odsl_m
   soundcloud: https://soundcloud.com/avamax/sets/heaven-hell
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/187081012
 ---

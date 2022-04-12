@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/post-human-survival-horror/1535067172?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/182475962
 ---

@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/sigma/1159663862?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: ""
 ---

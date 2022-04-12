@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/human-procrastination-ep/1476294834?uo=4
   soundcloud: https://soundcloud.com/lookmumnocomputer/sets/human-procrastination
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B5ap3jtiow4vovh5rpku7x3qnme?signup_if_needed=1
   deezer: https://www.deezer.com/album/107196832
 ---

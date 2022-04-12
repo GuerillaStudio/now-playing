@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/zaba/860685871?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B7tdj5ixnfgjlilmns5iwgkpp6m?signup_if_needed=1
   deezer: https://www.deezer.com/album/7846025
 ---

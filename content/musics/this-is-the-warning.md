@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/this-is-the-warning/611628677?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B7pv5ukmecpviygahidndxke2qu?signup_if_needed=1
   deezer: ""
 ---

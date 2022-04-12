@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/pink-lemonade/859035949?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bnqm4j46l2zsmmtuewbvra6nt5e?signup_if_needed=1
   deezer: https://www.deezer.com/album/7699200
 ---

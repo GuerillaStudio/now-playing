@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/audio-video-disco/469202499?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bm6wmpfcgtjnlz7xmjtjvmkmucy?signup_if_needed=1
   deezer: https://www.deezer.com/album/54275582
 ---

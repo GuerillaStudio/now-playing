@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/for-house-cats-and-sea-fans/838308016?uo=4
   soundcloud: ""
   bandcamp: https://elysianfields.bandcamp.com/album/for-house-cats-and-sea-fans
-  googleplay: https://play.google.com/music/m/B6jdg7jzthgc2udh7dac6zfq2m4?signup_if_needed=1
   deezer: https://www.deezer.com/album/15509952
 ---

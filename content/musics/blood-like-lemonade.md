@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/blood-like-lemonade/735125019?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bostim4njsv6blicrz7g7bzkzdu?signup_if_needed=1
   deezer: https://www.deezer.com/album/989229
 ---

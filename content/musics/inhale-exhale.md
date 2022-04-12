@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/inhale-exhale/1290138057?uo=4
   soundcloud: ""
   bandcamp: https://glaston.bandcamp.com/album/inhale-exhale
-  googleplay: https://play.google.com/music/m/Bfq5f46ryitdurcl77t6uw6erzm?signup_if_needed=1
   deezer: https://www.deezer.com/album/48940282
 ---

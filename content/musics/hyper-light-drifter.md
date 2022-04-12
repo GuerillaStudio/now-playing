@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/hyper-light-drifter/1105137237?uo=4
   soundcloud: ""
   bandcamp: https://music.disasterpeace.com/album/hyper-light-drifter
-  googleplay: https://play.google.com/music/m/Bmvf6ci4w5zbit3omul6p4zizle?signup_if_needed=1
   deezer: https://www.deezer.com/album/13049714
 ---

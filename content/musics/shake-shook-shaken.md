@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/shake-shook-shaken/960216247?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bxdfxnvbx6653pguiqd43kdb73a?signup_if_needed=1
   deezer: https://www.deezer.com/album/8887473
 ---

@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/electric-girl/577498563?uo=4
   soundcloud: ""
   bandcamp: https://sheofficial.bandcamp.com/album/electric-girl
-  googleplay: https://play.google.com/music/m/B2qrtfa7lfteeptrbtjrbuh2zji?signup_if_needed=1
   deezer: ""
 ---

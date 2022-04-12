@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/pray-for-the-wicked/1361152002?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bxh4dkwlkit6n5ma57osv7rxnne?signup_if_needed=1
   deezer: https://www.deezer.com/album/66313782
 ---

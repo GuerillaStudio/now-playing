@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/evil-angel/1540873528?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/187159602
 ---

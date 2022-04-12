@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/empath-deluxe-edition/1449841303?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bmsz5aicyfvfkbhxhooh5fhdj5i?signup_if_needed=1
   deezer: https://www.deezer.com/album/85091902
 ---

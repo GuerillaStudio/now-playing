@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/vector-deluxe-edition/1433979909?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bs4powgwvcbt3yfpndgdol3hubu?signup_if_needed=1
   deezer: https://www.deezer.com/album/71515162
 ---

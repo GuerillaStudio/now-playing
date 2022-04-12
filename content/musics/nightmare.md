@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/so-far-away/379320560?i=379320629&uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/T5vkdqd5frdlbpysqdslqh55b6e?signup_if_needed=1
   deezer: https://www.deezer.com/album/620594
 ---

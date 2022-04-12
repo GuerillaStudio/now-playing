@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/dead-end-kings-deluxe-edition/675838299?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B5kvv24vyqeibenbllkk6rdv254?signup_if_needed=1
   deezer: https://www.deezer.com/album/5317491
 ---

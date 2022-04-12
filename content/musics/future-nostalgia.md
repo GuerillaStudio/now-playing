@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/future-nostalgia-the-moonlight-edition/1551178998?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/182811182
 ---

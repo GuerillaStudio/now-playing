@@ -10,7 +10,6 @@ links:
   applemusic: 'https://music.apple.com/us/album/the-man-left-in-space/600967417?uo=4'
   bandcamp: 'https://cosmograf.bandcamp.com/album/the-man-left-in-space'
   deezer: 'https://www.deezer.com/album/7362843'
-  googleplay: ''
   soundcloud: 'https://soundcloud.com/cosmograf/the-man-left-in-space-album'
   spotify: 'https://play.spotify.com/album/59jiqF6nOvHRFIHk3GqhgB'
   youtube: ''

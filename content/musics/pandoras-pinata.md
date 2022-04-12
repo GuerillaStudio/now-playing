@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/pandoras-pinata/1201984804?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bfy7ko5iwrindy7i2kjjn5hp3x4?signup_if_needed=1
   deezer: https://www.deezer.com/album/15801656
 ---

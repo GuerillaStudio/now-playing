@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/anno-domini-high-definition-ep/1045704264?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B6xo3rtn5zzt24qwqivacg7a42m?signup_if_needed=1
   deezer: https://www.deezer.com/album/11324382
 ---

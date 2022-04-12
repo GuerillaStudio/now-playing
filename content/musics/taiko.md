@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/%E5%A4%AA%E9%BC%93/1233355123?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bpxezmy4hk2wr6aty6r7lrf5oja?signup_if_needed=1
   deezer: https://www.deezer.com/album/41089231
 ---

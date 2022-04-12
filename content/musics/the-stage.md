@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/fr/album/the-stage/1442217154
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/store/music/album/Avenged_Sevenfold_The_Stage?id=Bpeubtn5laq7vw247ck6wsa3bgu
   deezer: https://www.deezer.com/fr/album/43064571
 ---

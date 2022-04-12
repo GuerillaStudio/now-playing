@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/wrong-generation/1535816008?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/180726882
 ---

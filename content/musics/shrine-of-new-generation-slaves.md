@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/shrine-of-new-generation-slaves/1148788808?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Beljjhadaa6j2k62hmiysf5ce3a?signup_if_needed=1
   deezer: https://www.deezer.com/album/13948216
 ---

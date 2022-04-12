@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/miracle/1450977294?i=1450977507&uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Thbxo5igmun646s2ippwgxxukiu?signup_if_needed=1
   deezer: https://www.deezer.com/fr/album/85249812
 ---

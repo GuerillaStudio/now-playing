@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/brute-force/1083396755?uo=4
   soundcloud: ""
   bandcamp: https://thealgorithm.bandcamp.com/album/brute-force
-  googleplay: ""
   deezer: https://www.deezer.com/album/15742314
 ---

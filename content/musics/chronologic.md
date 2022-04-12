@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/chronologic/1467837311?ign-mpt=uo%3D4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bjd4mk77tbfw36t5pihvnsw76xu?signup_if_needed=1
   deezer: https://www.deezer.com/album/100026582
 ---

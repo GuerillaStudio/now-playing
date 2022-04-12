@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/everchild/1103153937?uo=4
   soundcloud: ""
   bandcamp: https://dark-suns.bandcamp.com/album/everchild
-  googleplay: https://play.google.com/music/m/Bdbtypnqi6su547qqnocnhn5pvy?signup_if_needed=1
   deezer: https://www.deezer.com/album/12689244
 ---

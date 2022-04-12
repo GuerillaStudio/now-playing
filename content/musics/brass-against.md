@@ -13,6 +13,5 @@ links:
   applemusic: https://music.apple.com/us/album/brass-against/1483295648?uo=4
   soundcloud: https://soundcloud.com/brassagainst/sets/brass-against
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/113782622
 ---

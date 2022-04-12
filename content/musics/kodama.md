@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/kodama-deluxe-edition/1144895262?uo=4
   soundcloud: ""
   bandcamp: https://alcest.bandcamp.com/album/kodama
-  googleplay: https://play.google.com/music/m/Bbyjzp7xu6hywpnghep2ecuew5y?signup_if_needed=1
   deezer: https://www.deezer.com/album/13824584
 ---

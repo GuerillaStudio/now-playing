@@ -9,11 +9,8 @@ links:
   applemusic: 'https://music.apple.com/us/album/age-of-unreason/1485074521?uo=4'
   bandcamp: ''
   deezer: 'https://www.deezer.com/album/93914392'
-  googleplay: >-
-    https://play.google.com/music/m/Btvqu5d7n5oevoh64hbozviejye?signup_if_needed=1
   soundcloud: ''
   spotify: 'https://play.spotify.com/album/1GNAN3xxTAYedMvS9CEOdz'
-  youtube: >-
-    https://music.youtube.com/playlist?list=OLAK5uy_mEXfkjAh7gZN5xVh-7mQNQhqKqrCFBAMo
+  youtube: 'https://music.youtube.com/playlist?list=OLAK5uy_mEXfkjAh7gZN5xVh-7mQNQhqKqrCFBAMo'
 ---
 

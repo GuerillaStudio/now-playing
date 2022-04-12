@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/corpo-mente/968848517?uo=4
   soundcloud: ""
   bandcamp: https://blood-music.bandcamp.com/album/corpo-mente
-  googleplay: https://play.google.com/music/m/Blckcixtcrhuejgtvjfbi33nyta?signup_if_needed=1
   deezer: ""
 ---

@@ -13,6 +13,5 @@ links:
   applemusic: ""
   soundcloud: https://soundcloud.com/coins-3/sets/coins-daft-science
   bandcamp: https://coinsmakeyoudance.bandcamp.com/album/daft-science
-  googleplay: ""
   deezer: ""
 ---

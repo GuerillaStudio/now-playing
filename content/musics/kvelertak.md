@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/kvelertak-deluxe-edition/471191045?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Blhvsbmyrufaz6qcjfht7qja2hy?signup_if_needed=1
   deezer: https://www.deezer.com/album/12750220
 ---

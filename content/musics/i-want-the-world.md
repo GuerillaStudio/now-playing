@@ -12,6 +12,5 @@ links:
   applemusic: https://music.apple.com/us/album/i-want-the-world/1450266447?uo=4
   soundcloud: https://soundcloud.com/hands-off-gretel/sets/i-want-the-world-2
   bandcamp: ""
-  googleplay: ""
   deezer: https://www.deezer.com/album/85090872
 ---

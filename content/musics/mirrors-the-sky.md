@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/mirrors-the-sky/784935884?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bwbxuca45opncxp3pagxgkumhxm?signup_if_needed=1
   deezer: https://www.deezer.com/album/45345721
 ---

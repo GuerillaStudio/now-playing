@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/ember/964348484?uo=4
   soundcloud: ""
   bandcamp: https://kubbimusic.com/album/ember
-  googleplay: https://play.google.com/music/m/Bstf3tplteo7lpeq43xw6rcwlzq?signup_if_needed=1
   deezer: https://www.deezer.com/album/9633344
 ---

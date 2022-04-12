@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/minor-victories/1083764200?uo=4
   soundcloud: ""
   bandcamp: https://minorvictories.bandcamp.com/album/minor-victories
-  googleplay: https://play.google.com/music/m/Bjslfwvfjgh34syrfmpna6pnf4m?signup_if_needed=1
   deezer: https://www.deezer.com/album/13239355
 ---

@@ -12,6 +12,5 @@ links:
   applemusic: ""
   soundcloud: ""
   bandcamp: https://blackdresses.bandcamp.com/album/wasteisolation
-  googleplay: ""
   deezer: ""
 ---

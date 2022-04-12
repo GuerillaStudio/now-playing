@@ -11,6 +11,5 @@ links:
   applemusic: https://music.apple.com/us/album/bad-ideas/1482084346?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B6bqcfposzgflngyf4evea7xiby?signup_if_needed=1
   deezer: https://www.deezer.com/album/113372352
 ---

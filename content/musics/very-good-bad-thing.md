@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/very-good-bad-thing/974696853?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Birncqul2tdcpfhnschjzo3w3f4?signup_if_needed=1
   deezer: https://www.deezer.com/album/8965799
 ---

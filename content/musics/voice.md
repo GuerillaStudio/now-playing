@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/voice-feat-anthony-jackson-simon-phillips/440923034?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bvnjtwprub4ntricg563gyychc4?signup_if_needed=1
   deezer: https://www.deezer.com/album/1142795
 ---

@@ -11,6 +11,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/content/1253560066?uo=4
   soundcloud: https://soundcloud.com/joywave/sets/content-9
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/B27fqpsnsmg56ofzbvma3246rfq?signup_if_needed=1
   deezer: https://www.deezer.com/album/45029351
 ---

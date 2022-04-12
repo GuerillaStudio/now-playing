@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/aokigahara/1032661166?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bnqdhtet6wepzq4p5hhfurxq5b4?signup_if_needed=1
   deezer: ""
 ---

@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/handmade-cities/1143950631?uo=4
   soundcloud: ""
   bandcamp: https://plini.bandcamp.com/album/handmade-cities
-  googleplay: https://play.google.com/music/m/Bd2w2lqtetrp565hoiymmjkt2vq?signup_if_needed=1
   deezer: https://www.deezer.com/album/76263232
 ---

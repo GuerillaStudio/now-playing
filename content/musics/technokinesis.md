@@ -13,6 +13,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/technokinesis-ep/1135773955?uo=4
   soundcloud: ""
   bandcamp: https://meganeko.bandcamp.com/album/technokinesis
-  googleplay: https://play.google.com/music/m/Bjhjrmvoa3v4chhi6oqazbxziru?signup_if_needed=1
   deezer: https://www.deezer.com/album/13612729
 ---

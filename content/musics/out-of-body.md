@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/out-of-body/735505142?uo=4
   soundcloud: ""
   bandcamp: https://dancewiththedead.bandcamp.com/album/out-of-body
-  googleplay: https://play.google.com/music/m/Bakuetypkl4ocec2e3ldlz7eviq?signup_if_needed=1
   deezer: https://www.deezer.com/album/7089510
 ---

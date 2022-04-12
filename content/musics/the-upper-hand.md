@@ -12,6 +12,5 @@ links:
   applemusic: https://itunes.apple.com/us/album/the-upper-hand-feat-mr-j-medeiros-20syl/1186858969?uo=4
   soundcloud: ""
   bandcamp: ""
-  googleplay: https://play.google.com/music/m/Bleh252p6hahb3akghaaqr3s6wy?signup_if_needed=1
   deezer: https://www.deezer.com/album/15570712
 ---
