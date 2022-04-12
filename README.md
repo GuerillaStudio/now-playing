@@ -40,10 +40,9 @@ npm ci
 
 ### Run local API
 
-While running [developement hugo server](#launch-dev-server) launch this command in another terminal:
-```
-node server
-```
+1. Uncomment the `local_backend` line in `static/config.yml`
+2. Launch [hugo developement server](#launch-dev-server)
+2. launch this command in another terminal `npx netlify-cms-proxy-server` (inside the project folder)
 
 ### Admin your website in local
 
