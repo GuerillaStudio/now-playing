@@ -4,6 +4,9 @@ backend:
   repo: GlitchFamily/now-playing
   branch: main
 #local_backend: true
+site_url: https://music.glitch.family
+display_url: https://music.glitch.family
+logo_url: https://music.glitch.family/images/logo-glitch-family.svg
 media_folder: assets/upload
 public_folder: "/upload"
 collections:
@@ -14,6 +17,7 @@ collections:
   label: Album
   format: frontmatter
   folder: content/musics
+  sortable_fields: ['date']
   fields:
   - name: title
     label: Name
