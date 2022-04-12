@@ -2,6 +2,7 @@
 backend:
   name: github
   repo: GlitchFamily/now-playing
+  branch: main
 #local_backend: true
 media_folder: assets/upload
 public_folder: "/upload"
