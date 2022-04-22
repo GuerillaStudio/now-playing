@@ -1,4 +1,4 @@
-{{ $pages := .Paginate (where .Site.RegularPages "Type" "in" "musics") }}
+{{ $pages := .Paginate (where .Site.RegularPages "Type" "in" "a") }}
 <div class="grid grid-catalog">
   {{ range sort $pages.Pages "Date" "desc" }}
     {{ $original := resources.Get .Params.cover }}

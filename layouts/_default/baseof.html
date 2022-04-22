@@ -55,7 +55,7 @@
 
     <script>
       window.albumsUrls = [
-        {{ range where .Site.RegularPages "Type" "in" "musics" }}
+        {{ range where .Site.RegularPages "Type" "in" "a" }}
           "{{ .Permalink }}",
         {{ end }}
       ]

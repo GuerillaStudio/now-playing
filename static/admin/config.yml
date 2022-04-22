@@ -3,7 +3,7 @@ backend:
   name: github
   repo: GlitchFamily/now-playing
   branch: main
-#local_backend: true
+# local_backend: true
 site_url: https://music.glitch.family
 display_url: https://music.glitch.family
 logo_url: https://music.glitch.family/images/logo-glitch-family.svg
@@ -16,7 +16,7 @@ collections:
   name: musics
   label: Album
   format: frontmatter
-  folder: content/musics
+  folder: content/a
   sortable_fields: ['date']
   fields:
   - name: title
