@@ -11,7 +11,7 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ $albums := (where .Site.RegularPages "Section" "musics") }}
+    {{ $albums := (where .Site.RegularPages "Section" "a") }}
     {{ range sort $albums "Date" "desc" }}
     {{ $original := resources.Get .Params.cover }}
     {{ $originalPermalink := $original.Permalink }}

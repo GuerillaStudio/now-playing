@@ -21,8 +21,20 @@
 
 [[redirects]]
   force = true
+  from = "/a"
+  to = "/"
+
+# Old urls
+
+[[redirects]]
+  force = true
   from = "/musics"
   to = "/"
+
+[[redirects]]
+  force = true
+  from = "/musics/*"
+  to = "/a/:splat"
 
 [[redirects]]
   force = true

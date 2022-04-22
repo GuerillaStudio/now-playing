@@ -2,7 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Now Playing"
 author = "Glitch.Family"
-mainSections = ["musics"]
+mainSections = ["a"]
 paginate = 16
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
