@@ -6,7 +6,6 @@ cover: /upload/initiative-h-deus-ex-machina-cover.jpg
 styles:
   - Jazz
   - Contemporary Jazz
-  - ""
 links:
   spotify: https://play.spotify.com/album/7aEJs6XLebNYgNSydxW4RA
   youtube: https://www.youtube.com/playlist?list=OLAK5uy_lIhCb3iYR-LeGBj9YmHVWyitbxiiwLtIQ
