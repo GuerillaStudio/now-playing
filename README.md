@@ -1,6 +1,6 @@
 # Now Playing
 
-Handpicked Albums by the Glitch.Family
+Collection of Handpicked Albums by the Guérilla.Studio
 
 
 ## Project setup

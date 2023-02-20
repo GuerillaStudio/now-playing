@@ -1,13 +1,16 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Now Playing"
-author = "Glitch.Family"
 mainSections = ["a"]
 paginate = 16
 disableKinds = ["taxonomy", "taxonomyTerm"]
+[params]
+  description = "Collection of Handpicked Albums by Guérilla.Studio"
+  [params.author]
+    name = "Guérilla.Studio"
 
 [imaging]
 quality = 95
 [security]
-    [security.funcs]
-    getenv = [ "^HUGO_", "CONTEXT", "URL" ]
+  [security.funcs]
+  getenv = [ "^HUGO_", "CONTEXT", "URL" ]

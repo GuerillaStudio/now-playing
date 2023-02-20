@@ -2,11 +2,12 @@
   <channel>
     <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Handpicked Albums by the Glitch.Family</description>
+    <description>{{ .Site.Params.description }}</description>
+    <description>{{ .Site.Params.author.name }}</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ if not .Date.IsZero }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Params.author.name }}
+    <managingEditor>{{.}}</managingEditor>{{end}}{{ with .Site.Params.author.name }}
+    <webMaster>{{.}}</webMaster>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}

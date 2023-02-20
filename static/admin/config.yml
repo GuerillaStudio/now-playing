@@ -1,12 +1,12 @@
 ---
 backend:
   name: github
-  repo: GlitchFamily/now-playing
+  repo: GuerillaHQ/now-playing
   branch: main
 # local_backend: true
-site_url: https://music.glitch.family
-display_url: https://music.glitch.family
-logo_url: https://music.glitch.family/images/logo-glitch-family.svg
+site_url: https://music.guerilla.studio
+display_url: https://music.guerilla.studio
+logo_url: https://music.guerilla.studio/images/illustration.svg
 media_folder: assets/upload
 public_folder: "/upload"
 collections:

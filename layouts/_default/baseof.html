@@ -4,7 +4,7 @@
 
     {{ block "metaTitle" . }}
       <title>{{ .Title }}</title>
-      <meta name="description" content="Handpicked Albums by the Glitch.Family">
+      <meta name="description" content="{{ .Site.Params.description }}">
     {{ end }}
 
 
@@ -21,17 +21,17 @@
     <meta name="msapplication-TileColor" content="#0e1848">
     <meta name="theme-color" content="#0e1848">
     {{ block "metaSocial" . }}
-      <!-- opengraph -->
-      <meta property="og:title" content="Now Playing ∴ Great music should be shared">
-      <meta property="og:description" content="Handpicked Albums by the Glitch.Family">
-      <meta property="og:url" content="https://music.glitch.family">
-      <meta property="og:image" content="{{ "/favicons/android-chrome-512x512.png" | absURL }}">
-      <meta property="og:image:height" content="512">
-      <meta property="og:image:width" content="512">
-      <!-- twitter card -->
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content="Now Playing ∴ Great music should be shared" />
-      <meta name="twitter:description" content="Handpicked Albums by the Glitch.Family" />
+    <!-- opengraph -->
+    <meta property="og:title" content="Now Playing ∴ Great music should be shared">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:url" content="{{ "/" | absURL }}">
+    <meta property="og:image" content="{{ "/favicons/android-chrome-512x512.png" | absURL }}">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:width" content="512">
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Now Playing ∴ Great music should be shared" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
     {{ end }}
 
     {{ with .Site.GetPage "/" }}
