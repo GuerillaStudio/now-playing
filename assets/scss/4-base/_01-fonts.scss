@@ -29,3 +29,13 @@
   url("/fonts/sourcesanspro-black-webfont.woff2") format("woff2"),
   url("/fonts/sourcesanspro-black-webfont.woff") format("woff");
 }
+
+
+// Fallback hack
+// --------------------------------------------------------------
+
+@font-face {
+  font-family: "Source Sans Pro-fallback";
+  size-adjust: 93.75%;
+  src: local("Arial");
+}
