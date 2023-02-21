@@ -65,6 +65,11 @@
             </div>
             {{ else }}
               <div class="album-links__list">
+                {{ if .Params.links.bandcamp }}
+                <a class="album-links__item tooltip tooltip--bottom" aria-label="Bandcamp" data-tooltip="Bandcamp" href="{{ .Params.links.bandcamp }}" target="_blank" rel="noreferrer">
+                  {{ partial "social/bandcamp" .}}
+                </a>
+                {{ end }}
                 {{ if .Params.links.spotify }}
                 <a class="album-links__item tooltip tooltip--bottom" aria-label="Spotify" data-tooltip="Spotify" href="{{ .Params.links.spotify }}" target="_blank" rel="noreferrer">
                   {{ partial "social/spotify" .}}
@@ -83,11 +88,6 @@
                 {{ if .Params.links.soundcloud }}
                 <a class="album-links__item tooltip tooltip--bottom" aria-label="Soundcloud" data-tooltip="Soundcloud" href="{{ .Params.links.soundcloud }}" target="_blank" rel="noreferrer">
                   {{ partial "social/soundcloud" .}}
-                </a>
-                {{ end }}
-                {{ if .Params.links.bandcamp }}
-                <a class="album-links__item tooltip tooltip--bottom" aria-label="Bandcamp" data-tooltip="Bandcamp" href="{{ .Params.links.bandcamp }}" target="_blank" rel="noreferrer">
-                  {{ partial "social/bandcamp" .}}
                 </a>
                 {{ end }}
                 {{ if .Params.links.deezer }}
