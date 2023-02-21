@@ -2,6 +2,9 @@
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "a") }}
   <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by Guérilla.Studio{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
+  {{ if (not $paginator.HasPrev) }}
+  <link rel="preload" href="/images/illustration.svg" as="image" type="image/svg+xml" />
+  {{ end }}
 {{ end }}
 {{ define "main" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "a") }}
