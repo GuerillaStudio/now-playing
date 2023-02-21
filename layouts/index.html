@@ -10,9 +10,7 @@
       <div class="home-head">
         <div class="container">
           <div class="home-head__container">
-            <h1 class="home-head__title" data-text="Handpicked Albums">
-              <span class="glitch" data-text="Handpicked">Handpicked</span> <span class="glitch" data-text="Albums">Albums</span>
-            </h1>
+            <h1 class="home-head__title">Handpicked Albums</h1>
             <p class="home-head__subtitle">A collection by Guérilla.Studio</p>
           </div>
         </div>
@@ -44,7 +42,7 @@
                 <h2 class="catalog-item__album">{{ .Title }}</h2>
                 <div class="catalog-item__artist">by {{ .Params.artist }}</div>
                   <img
-                  class="catalog-item__visual coverGlitchSimpleHover"
+                  class="catalog-item__visual"
                   width="320"
                   height="320"
                   style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
@@ -75,7 +73,5 @@
       </section>
     {{ end }}
   </main>
-
-  {{ partial "cover-glitch-svg-filter" .}}
 
 {{ end }}
