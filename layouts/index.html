@@ -31,7 +31,7 @@
     <div class="content">
       <div class="container">
         <div class="grid grid-catalog">
-          {{ range sort $paginator.Pages "Date" "desc" }}
+          {{ range $albumIndex, $album := sort $paginator.Pages "Date" "desc" }}
             {{ $original := resources.Get .Params.cover }}
             {{ $originalPermalink := $original.Permalink }}
             {{ $cover := $original.Resize "x320 webp" }}
@@ -48,7 +48,10 @@
                   style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
                   src="{{ $cover.Permalink }}"
                   srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x"
+                  {{ if ( gt $albumIndex 3) }}
                   loading="lazy"
+                  decoding="async"
+                  {{ end }}
                   alt="{{ .Title }} album's cover"
                   title="{{ .Title }} album's cover"
                   >
