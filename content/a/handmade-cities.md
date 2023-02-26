@@ -6,6 +6,7 @@ cover: /upload/a2040672325_16.jpg
 styles:
   - Progressive Rock
   - Instrumental
+  - Post-Rock
 links:
   spotify: https://play.spotify.com/album/36vGWMFViWBpBB4npwmusv
   youtube: https://music.youtube.com/watch?v=4qOeZzZh9MM
