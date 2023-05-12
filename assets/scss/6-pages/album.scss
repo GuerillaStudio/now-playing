@@ -40,6 +40,8 @@
   width: 100%;
   border-radius: .6rem;
   background-color: rgba($color-primary, .5);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 .6rem 4.4rem 0 rgba(0,0,0,.5);
 }
 
