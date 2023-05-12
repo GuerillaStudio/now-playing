@@ -6,7 +6,7 @@ body {
   background-color: $color-primary;
   color: $color-light-text;
   font-family: $fontstack1;
-
+  overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
