@@ -5,19 +5,19 @@
 {{ end }}
   <div class="container">
     <div class="header__left">
-      <a class="header__logo glitch--hover" data-text="Now Playing" href="/" title="Homepage">Now Playing</a>
-      <div class="header__tagline">
+      <a class="header__logo glitch--hover" data-text="Now Playing" href="/" title="Homepage" style="view-transition-name: header-title;">Now Playing</a>
+      <div class="header__tagline" style="view-transition-name: header-tagline;">
         Great music should be shared
       </div>
     </div>
     <nav class="navigation" data-menu="navigation">
-      <a class="navigation__item {{ if .IsHome }}active{{ end }}" href="/">Latest</a>
+      <a class="navigation__item {{ if .IsHome }}active{{ end }}" href="/" style="view-transition-name: nav-latest;">Latest</a>
       {{ with .Site.GetPage "/" }}
         {{ with .OutputFormats.Get "RSS" }}
-          <a class="navigation__item" href="{{ .RelPermalink }}">RSS</a>
+          <a class="navigation__item" href="{{ .RelPermalink }}" style="view-transition-name: nav-rss;">RSS</a>
         {{ end }}
       {{ end }}
-      <button class="navigation__item" data-random="btn">Random</button>
+      <button class="navigation__item" data-random="btn" style="view-transition-name: header-random;">Random</button>
     </nav>
     <div class="navigation__mobileOverlay" data-menu="overlay"></div>
     <button class="navigation__mobileBtn" data-menu="btn">

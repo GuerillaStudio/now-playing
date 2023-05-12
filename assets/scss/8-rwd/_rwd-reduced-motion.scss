@@ -26,4 +26,22 @@
   .coverGlitchSimpleHover:hover {
     animation: none;
   }
+
+
+  /* Experimental View Transition API
+  -------------------------------------------------------------- */
+
+  html,
+  .header__logo,
+  .header__tagline,
+  .navigation__item,
+  .catalog-item__visual,
+  .catalog-item__album,
+  .catalog-item__artist,
+  .album-cover__visual
+  .album-name
+  .album-artist {
+    view-transition-name: none !important;
+  }
+
 }

@@ -42,13 +42,16 @@
             {{ $placeholder := $cover.Resize "x1 png" }}
             <div class="catalog-item">
               <a class="catalog-item__content" href="{{ .Permalink }}">
-                <h2 class="catalog-item__album">{{ .Title }}</h2>
-                <div class="catalog-item__artist">by {{ .Params.artist }}</div>
+                <h2 class="catalog-item__album" style="view-transition-name: album_title_{{ .File.BaseFileName }};">{{ .Title }}</h2>
+                <div class="catalog-item__artist" style="view-transition-name: album_artist_{{ .File.BaseFileName }};">by {{ .Params.artist }}</div>
                   <img
                   class="catalog-item__visual"
                   width="320"
                   height="320"
-                  style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
+                  style="
+                    background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});
+                    view-transition-name: album_cover_{{ .File.BaseFileName }};
+                  "
                   src="{{ $cover.Permalink }}"
                   srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x"
                   {{ if ( gt $albumIndex 3) }}

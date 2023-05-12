@@ -41,7 +41,10 @@
             class="album-cover__visual"
             width="500"
             height="500"
-            style="background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});"
+            style="
+              background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});
+              view-transition-name: album_cover_{{ .File.BaseFileName }};
+            "
             src="{{ $coverMedium.Permalink }}"
             loading="lazy"
             alt="{{ .Title }} album's cover"
@@ -49,8 +52,8 @@
           >
         </picture>
         <div class="album-infos">
-          <h1 class="album-name">{{ .Title }}</h1>
-          <strong class="album-artist">by {{ .Params.artist }}</strong>
+          <h1 class="album-name" style="view-transition-name: album_title_{{ .File.BaseFileName }};">{{ .Title }}</h1>
+          <strong class="album-artist" style="view-transition-name: album_artist_{{ .File.BaseFileName }};">by {{ .Params.artist }}</strong>
           <ul class="album-tags">
             {{ range .Params.styles }}
               <li class="album-tags__item">{{ . }}</li>
