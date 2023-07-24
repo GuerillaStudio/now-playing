@@ -5,15 +5,19 @@
 // palette
 // --------------------------------------------------------------
 
-$color-primary: #0e1537;
-$color-secondary: #ff2749;
-$color-tertiary: #fec156;
+$color-primary-hue: 230;
+$color-secondary-hue: 351;
+$color-tertiary-hue: 38;
+
+$color-primary: hsl($color-primary-hue, 59%, 14%);
+$color-secondary: hsl($color-secondary-hue, 100%, 58%);
+$color-tertiary: hsl($color-tertiary-hue, 99%, 67%);
 $color-info: #2185d0;
 
 // backgrounds
 // --------------------------------------------------------------
 
-$color-bg-head: #0e1848;
+$color-bg-head: hsl($color-primary-hue, 67%, 17%);
 
 // texts
 // --------------------------------------------------------------
