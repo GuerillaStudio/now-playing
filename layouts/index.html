@@ -1,6 +1,6 @@
 {{ define "metaTitle" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "a") }}
-  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by {{ .Site.Params.author.name }}{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
+  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ {{ .Site.Params.author.name }}'s Handpicked Albums Collection{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ if (not $paginator.HasPrev) }}
   <link rel="preload" href="/images/illustration.svg" as="image" type="image/svg+xml" />
