@@ -70,7 +70,7 @@
       </div>
     </div>
     <!-- About  -->
-    {{ if not $paginator.HasPrev }}
+    {{ if and (not $paginator.HasPrev) (eq .Site.Params.author.name .Site.Params.creator.name) }}
       <section class="home-about">
         <div class="container">
           <h2 class="visually-hidden">About</h2>

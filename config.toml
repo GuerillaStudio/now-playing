@@ -8,6 +8,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   description = "Collection of Handpicked Albums by Guérilla.Studio"
   [params.author]
     name = "Guérilla.Studio"
+    url = "https://guerilla.studio"
+  [params.creator]
+    name = "Guérilla.Studio"
+    url = "https://guerilla.studio"
 
 [imaging]
 quality = 95

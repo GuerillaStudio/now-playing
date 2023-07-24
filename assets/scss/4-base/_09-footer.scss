@@ -8,13 +8,18 @@
   background: $color-primary url("/images/triforce.svg") no-repeat;
   background-position: center 10rem;
   text-align: center;
+  color: #8f92ae;
+}
+
+.footer a:not([class]) {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .footer__logo,
 .footer__logo:link,
 .footer__logo:visited {
   display: inline-block;
-  color: #8f92ae;
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.015em;

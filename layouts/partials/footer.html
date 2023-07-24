@@ -1,5 +1,19 @@
 <footer class="footer">
-  <a class="footer__logo" href="https://guerilla.studio">
-    Guérilla.Studio
+
+  <div>
+    {{ if (eq .Site.Params.author.name .Site.Params.creator.name) }}
+      A website by
+    {{ else }}
+      A website published by
+      {{ if isset .Site.Params.author "url" }}
+        <span class="semibold"><a href="{{ .Site.Params.author.url }}">{{ .Site.Params.author.name }}</a></span>
+      {{ else }}
+        <span class="semibold">{{ .Site.Params.author.name }}</span>
+      {{ end }}
+      and built by
+    {{ end }}
+  </div>
+  <a class="footer__logo" href="{{ .Site.Params.creator.url }}">
+    {{ .Site.Params.creator.name }}
   </a>
 </footer>
