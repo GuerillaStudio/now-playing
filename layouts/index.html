@@ -1,6 +1,6 @@
 {{ define "metaTitle" }}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "a") }}
-  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by Guérilla.Studio{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
+  <title>{{ if (not $paginator.HasPrev) }}{{ .Site.Title }} ∴ Handpicked Albums by {{ .Site.Params.author.name }}{{ else }}{{ .Site.Title }} ∴ Albums (Page {{ $paginator.PageNumber }}) {{ end }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
   {{ if (not $paginator.HasPrev) }}
   <link rel="preload" href="/images/illustration.svg" as="image" type="image/svg+xml" />
@@ -14,7 +14,7 @@
         <div class="container">
           <div class="home-head__container">
             <h1 class="home-head__title">Handpicked Albums</h1>
-            <p class="home-head__subtitle">A collection by Guérilla.Studio</p>
+            <p class="home-head__subtitle">A collection by {{ .Site.Params.author.name }}</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
       <section class="home-about">
         <div class="container">
           <h2 class="visually-hidden">About</h2>
-          <p>At Guérilla we love music, I mean we <strong class="semibold">LOVE</strong> music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums dear to us.</p>
+          <p>At {{ .Site.Params.author.name }} we love music, I mean we <strong class="semibold">LOVE</strong> music! And we also LOVE great album covers. So we decided to make a place where we can showcase albums dear to us.</p>
           <p>
             This is <strong class="semibold">Now Playing</strong>, our little favorite albums collection.
           </p>
