@@ -6,7 +6,6 @@ cover: /upload/ab67616d0000b2733e30daa5181c94e7a13da49a.jpg
 styles:
   - Post-Rock
   - Post-Metal
-  - ""
 links:
   spotify: https://open.spotify.com/album/32mMnFqz1MC2Sd6O5i8fuH
   youtube: https://www.youtube.com/playlist?list=OLAK5uy_nS-6A-7AxNJXm33dRT_P5QEzc5kmFYRjE
