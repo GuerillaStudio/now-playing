@@ -1,6 +1,6 @@
 {{ define "metaTitle" }}
   <title>{{ .Title }} ∴ {{ .Site.Title }}</title>
-  <meta name="description" content="Listen to this album on Now Playing">
+  <meta name="description" content="Get links to listen to this album on Now Playing">
 {{ end }}
 {{ define "metaSocial" }}
   {{ $original := resources.Get .Params.cover }}
@@ -8,7 +8,7 @@
   <!-- opengraph -->
   <meta property="og:type" content="music.album">
   <meta property="og:title" content="{{ .Title }} by {{ .Params.artist }}">
-  <meta property="og:description" content="Listen to this album on Now Playing">
+  <meta property="og:description" content="Get links to listen to this album on Now Playing">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:image" content="{{ $cover.Permalink }}">
   <meta property="og:image:height" content="1000">
@@ -19,7 +19,7 @@
   <!-- twitter card -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ .Title }} by {{ .Params.artist }}" />
-  <meta name="twitter:description" content="Listen to this album on Now Playing" />
+  <meta name="twitter:description" content="Get links to listen to this album on Now Playing" />
   <meta name="twitter:image" content="{{ $cover.Permalink }}" />
 {{ end }}
 {{ define "main" }}
