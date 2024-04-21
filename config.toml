@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "http://localhost:1312/"
 languageCode = "en-us"
 title = "Now Playing"
 mainSections = ["a"]
@@ -17,4 +17,8 @@ disableKinds = ["taxonomy"]
 quality = 95
 [security]
   [security.funcs]
-  getenv = [ "^HUGO_", "CONTEXT", "URL" ]
+  getenv = [ "^HUGO_", "CONTEXT", "URL", "BASE_URL" ]
+## Deploy into a Garage bucket at Deuxfleurs
+[[deployment.targets]]
+name = "deuxfleurs"
+URL = "s3://now-playing?endpoint=garage.deuxfleurs.fr&region=garage&s3ForcePathStyle=true"
