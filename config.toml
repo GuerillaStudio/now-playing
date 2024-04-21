@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Now Playing"
 mainSections = ["a"]
 paginate = 16
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 [params]
   description = "Collection of Handpicked Albums by Guérilla.Studio"
   [params.author]
