@@ -30,13 +30,20 @@
         <picture class="album-cover">
           {{ $original := resources.Get .Params.cover }}
           {{ $coverSmall := $original.Resize "x250 webp" }}
+          {{ $coverSmallBackup := $original.Resize "x250 jpeg q69" }}
           {{ $coverMedium := $original.Resize "x500 webp" }}
+          {{ $coverMediumBackup := $original.Resize "x500 jpeg q69" }}
           {{ $coverBig := $original.Resize "x1000 webp" }}
+          {{ $coverBigBackup := $original.Resize "x1000 jpeg q69" }}
           {{ $placeholder := $original.Resize "x15" }}
-          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 427px)">
-          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(max-width: 480px)">
-          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 647px)">
-          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(min-width: 647px)">
+          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 427px)" type="image/webp">
+          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(max-width: 480px)" type="image/webp">
+          <source srcset="{{ $coverSmall.Permalink }} 1x, {{ $coverMedium.Permalink }} 2x" media="(max-width: 647px)" type="image/webp">
+          <source srcset="{{ $coverMedium.Permalink }} 1x, {{ $coverBig.Permalink }} 2x" media="(min-width: 647px)" type="image/webp">
+          <source srcset="{{ $coverSmallBackup.Permalink }} 1x, {{ $coverMediumBackup.Permalink }} 2x" media="(max-width: 427px)" type="image/jpeg">
+          <source srcset="{{ $coverMediumBackup.Permalink }} 1x, {{ $coverBigBackup.Permalink }} 2x" media="(max-width: 480px)" type="image/jpeg">
+          <source srcset="{{ $coverSmallBackup.Permalink }} 1x, {{ $coverMediumBackup.Permalink }} 2x" media="(max-width: 647px)" type="image/jpeg">
+          <source srcset="{{ $coverMediumBackup.Permalink }} 1x, {{ $coverBigBackup.Permalink }} 2x" media="(min-width: 647px)" type="image/jpeg">
           <img
             class="album-cover__visual"
             width="500"
@@ -45,7 +52,7 @@
               background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});
               view-transition-name: album_cover_{{ .File.BaseFileName }};
             "
-            src="{{ $coverMedium.Permalink }}"
+            src="{{ $coverMediumBackup.Permalink }}"
             loading="lazy"
             alt="{{ .Title }} album's cover"
             title=":)"

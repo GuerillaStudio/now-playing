@@ -38,21 +38,26 @@
             {{ $original := resources.Get .Params.cover }}
             {{ $originalPermalink := $original.Permalink }}
             {{ $cover := $original.Resize "x320 webp" }}
+            {{ $coverBackup := $original.Resize "x320 jpeg q69" }}
             {{ $cover2x := $original.Resize "x640 webp" }}
+            {{ $cover2xBackup := $original.Resize "x640 jpeg q69" }}
             {{ $placeholder := $cover.Resize "x1 png" }}
             <div class="catalog-item">
               <a class="catalog-item__content" href="{{ .Permalink }}">
                 <h2 class="catalog-item__album" style="view-transition-name: album_title_{{ .File.BaseFileName }};">{{ .Title }}</h2>
                 <div class="catalog-item__artist" style="view-transition-name: album_artist_{{ .File.BaseFileName }};">by {{ .Params.artist }}</div>
+                <picture class="catalog-item__visual">
+                  <source srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x" type="image/webp">
+                  <source srcset="{{ $coverBackup.Permalink }} 1x, {{ $cover2xBackup.Permalink }} 2x" type="image/jpeg">
                   <img
-                  class="catalog-item__visual"
+
                   width="320"
                   height="320"
                   style="
                     background-image: url(data:{{ $placeholder.MediaType }};base64,{{ $placeholder.Content | base64Encode }});
                     view-transition-name: album_cover_{{ .File.BaseFileName }};
                   "
-                  src="{{ $cover.Permalink }}"
+                  src="{{ $coverBackup.Permalink }}"
                   srcset="{{ $cover.Permalink }} 1x, {{ $cover2x.Permalink }} 2x"
                   {{ if ( gt $albumIndex 3) }}
                   loading="lazy"
@@ -61,6 +66,7 @@
                   alt="{{ .Title }} album's cover"
                   title="{{ .Title }} album's cover"
                   >
+                </picture>
               </a>
             </div>
           {{ end }}
