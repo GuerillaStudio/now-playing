@@ -1,0 +1,25 @@
+steps:
+  - name: build hugo
+    image: alpine:3.19.1
+    commands:
+      - apk update
+      - apk add hugo
+      - hugo -b 'https://now-playing.web.deuxfleurs.fr'
+
+  - name: upload
+    when:
+      branch:
+        - deploy-to-deuxfleurs
+    image: plugins/s3
+    settings:
+      bucket: now-playing
+      endpoint: https://garage.deuxfleurs.fr
+      region: garage
+      access_key:
+        from_secret: aws_access_key_id
+      secret_key:
+        from_secret: aws_secret_access_key
+      source: public/**/*
+      target: /
+      strip_prefix: public/
+      path_style: true
