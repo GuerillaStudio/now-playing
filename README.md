@@ -46,9 +46,11 @@ npm ci
 
 ### Admin your website in local
 
-Go to you website's local url + `/admin` (by default it's `http://localhost:1313/admin`). Enjoy!
+Go to you website's local url + `/admin` (by default it's `http://localhost:1312/admin`). Enjoy!
 
 
 ## Credits
-  * [Higgcss](https://github.com/robinparisi/higgcss) - The minimal CSS framework use as skeleton
+  * [Higgcss](https://github.com/robinparisi/higgcss) - The minimal CSS framework used as skeleton
   * Wryk for the help and support 💜
+  * [Deuxfleurs](https://deuxfleurs.fr) for the wonderful distributed hosting infrastructure (running [Garage](https://garagehq.deuxfleurs.fr)) \
+  ![Website hosted by Deuxfleurs](hosted_by_deuxfleurs.png) ![Infrastructure powered by Garage ](powered_by_garage.png)
