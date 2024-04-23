@@ -18,7 +18,8 @@ quality = 95
 [security]
   [security.funcs]
   getenv = [ "^HUGO_", "CONTEXT", "URL", "BASE_URL" ]
+
 ## Deploy into a Garage bucket at Deuxfleurs
 [[deployment.targets]]
 name = "deuxfleurs"
-URL = "s3://now-playing?endpoint=garage.deuxfleurs.fr&region=garage&s3ForcePathStyle=true"
+URL = "s3://music.guerilla.studio&endpoint=garage.deuxfleurs.fr&region=garage&s3ForcePathStyle=true"

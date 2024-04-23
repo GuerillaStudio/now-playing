@@ -4,15 +4,15 @@ steps:
     commands:
       - apk update
       - apk add hugo
-      - hugo -b 'https://now-playing.web.deuxfleurs.fr'
+      - hugo -b 'https://music.guerilla.studio'
 
   - name: upload
     when:
       branch:
-        - deploy-to-deuxfleurs
+        - main
     image: plugins/s3
     settings:
-      bucket: now-playing
+      bucket: music.guerilla.studio
       endpoint: https://garage.deuxfleurs.fr
       region: garage
       access_key:
