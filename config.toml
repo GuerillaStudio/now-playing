@@ -17,7 +17,7 @@ disableKinds = ["taxonomy"]
 quality = 95
 [security]
   [security.funcs]
-  getenv = [ "^HUGO_", "CONTEXT", "URL", "BASE_URL" ]
+  getenv = [ "^HUGO_", "CONTEXT", "URL", "BASE_URL", "UMAMI_DOMAIN", "UMAMI_ID" ]
 
 ## Deploy into a Garage bucket at Deuxfleurs
 [[deployment.targets]]
