@@ -2,9 +2,12 @@ steps:
   - name: build hugo
     image: alpine:3.19.1
     commands:
+      - export UMAMI_DOMAIN=$UMAMI_DOMAIN
+      - export UMAMI_ID=$UMAMI_ID
       - apk update
       - apk add hugo
       - hugo -b 'https://music.guerilla.studio'
+    secrets: [ 'umami_domain', 'umami_id' ]
 
   - name: upload
     when:
