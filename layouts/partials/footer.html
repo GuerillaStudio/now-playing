@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer container container--medium">
 
   <div>
     {{ if (eq .Site.Params.author.name .Site.Params.creator.name) }}
@@ -16,4 +16,13 @@
   <a class="footer__logo" href="{{ .Site.Params.creator.url }}">
     {{ .Site.Params.creator.name }}
   </a>
+
+  <div class="mt3">
+    This project is <a href="https://github.com/GuerillaHQ/now-playing" rel="noopener noreferrer">open-source</a> under <a href="https://github.com/GuerillaHQ/now-playing/LICENSE" rel="noopener noreferrer">“I'm so tired”</a> license. However all albums visuals and streaming services logos rights belong entirely to their respective owners.
+    {{ with .Site.GetPage "/" }}
+    {{ with .OutputFormats.Get "rss" }}
+      {{ printf ` — <a href="%s" class="semibold">RSS feed</a>` .Permalink | safeHTML }}
+    {{ end }}
+  {{ end }}
+  </div>
 </footer>

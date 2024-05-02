@@ -11,15 +11,17 @@
   color: #8f92ae;
 }
 
-.footer a:not([class]) {
+.footer :where(a, a:visited, a:link) {
+  cursor: pointer;
   text-decoration: underline;
-  color: inherit;
+  // color: inherit;
 }
 
 .footer__logo,
 .footer__logo:link,
 .footer__logo:visited {
   display: inline-block;
+  text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.015em;
