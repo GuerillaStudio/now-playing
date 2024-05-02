@@ -25,4 +25,12 @@
     {{ end }}
   {{ end }}
   </div>
+
+  {{ if (and (isset .Site.Params.hosting "url") (isset .Site.Params.hosting "name")) }}
+    <div class="mt2">
+      {{ if isset .Site.Params.hosting "prefixtext" }} {{ .Site.Params.hosting.prefixtext }} {{ else }} Thanks to {{ end }}
+      <a href="{{ .Site.Params.hosting.url }}" class="semibold">{{ .Site.Params.hosting.name }}</a>
+      {{ if isset .Site.Params.hosting "suffixtext" }} {{ .Site.Params.hosting.suffixtext }} {{ else }} for hosting this site. {{ end }}
+    </div>
+  {{ end}}
 </footer>

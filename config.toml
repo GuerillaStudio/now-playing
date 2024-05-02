@@ -12,6 +12,11 @@ disableKinds = ["taxonomy"]
   [params.creator]
     name = "Guérilla.Studio"
     url = "https://guerilla.studio"
+  [params.hosting]
+    name = "Deuxfleurs"
+    url = "https://deuxfleurs.fr"
+    prefixtext = "Big thanks to"
+    suffixtext = "for providing an eco-responsible and distributed web hosting."
 
 [imaging]
 quality = 95
