@@ -8,7 +8,7 @@ styles:
   - Heavy Metal
 links:
   spotify: https://open.spotify.com/album/7mEkBi9a2p2f1WQbnH8Qk5?si=nKDGBvQmQrGvEn98hSQzoQ
-  youtube: https://music.youtube.com/watch?v=tI81VTGTdaU
+  youtube: https://youtube.com/watch?v=tI81VTGTdaU
   applemusic: https://music.apple.com/album/once-more-round-the-sun/866402572
   soundcloud: ""
   bandcamp: ""

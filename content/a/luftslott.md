@@ -8,7 +8,7 @@ styles:
   - Trip hop
 links:
   spotify: https://open.spotify.com/album/0BNXjPPSFrB80ea1ThuNWS?si=KXNTSQX2RnSvnRsYEshMxQ
-  youtube: https://music.youtube.com/watch?v=nxbi65EbyvY
+  youtube: https://youtube.com/watch?v=nxbi65EbyvY
   applemusic: https://music.apple.com/album/luftslott-ep/490499534
   soundcloud: ""
   bandcamp: https://ugress.bandcamp.com/album/luftslott-ep

@@ -8,7 +8,7 @@ styles:
   - Dream-pop
 links:
   spotify: https://play.spotify.com/album/3vDxWTf3gfUWNoyFYnNaFZ
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_lbKzIrlSItLg0XvqbC4MH0jkqw1DETzO0
+  youtube: https://youtube.com/playlist?list=OLAK5uy_lbKzIrlSItLg0XvqbC4MH0jkqw1DETzO0
   applemusic: https://music.apple.com/album/bright-yellow-sun-single/1510899197
   soundcloud: https://soundcloud.com/amtaylormusic/driving-ontheedgeofnight
   bandcamp: https://amtaylor.bandcamp.com/track/bright-yellow-sun

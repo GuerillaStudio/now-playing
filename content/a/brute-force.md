@@ -8,7 +8,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://play.spotify.com/album/4Ijivtrfqk2AMTF4dhrl2Q
-  youtube: https://music.youtube.com/watch?v=aik31J5m95A
+  youtube: https://youtube.com/watch?v=aik31J5m95A
   applemusic: https://music.apple.com/album/brute-force/1083396755
   soundcloud: ""
   bandcamp: https://thealgorithm.bandcamp.com/album/brute-force

@@ -8,7 +8,7 @@ styles:
   - Metal
 links:
   spotify: https://play.spotify.com/album/0q4NNa4HObPsqloh6dwVXl
-  youtube: https://music.youtube.com/watch?v=8EGYVS7jUn8
+  youtube: https://youtube.com/watch?v=8EGYVS7jUn8
   applemusic: https://music.apple.com/album/out-of-body/735505142
   soundcloud: ""
   bandcamp: https://dancewiththedead.bandcamp.com/album/out-of-body

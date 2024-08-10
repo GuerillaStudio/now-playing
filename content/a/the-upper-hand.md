@@ -8,7 +8,7 @@ styles:
   - Electronic-Rap
 links:
   spotify: https://play.spotify.com/album/6mT3tct9qJ7RRfvN5lCRDL
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_lK8VdDxjSS2YqBpRhpMnPySNbfczJjhqs
+  youtube: https://youtube.com/playlist?list=OLAK5uy_lK8VdDxjSS2YqBpRhpMnPySNbfczJjhqs
   applemusic: https://music.apple.com/album/the-upper-hand-feat-mr-j-medeiros-20syl/1186858969
   soundcloud: ""
   bandcamp: ""

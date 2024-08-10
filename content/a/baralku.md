@@ -12,5 +12,5 @@ links:
   deezer: 'https://www.deezer.com/album/50323442'
   soundcloud: 'https://soundcloud.com/emancipator/sets/baralku-3'
   spotify: 'https://play.spotify.com/album/3vUL7XVv8gsxuIFbamidAn'
-  youtube: 'https://music.youtube.com/playlist?list=OLAK5uy_kS-h3uahYtGZtJsj4m2iDwecWvweLuunk'
+  youtube: 'https://youtube.com/playlist?list=OLAK5uy_kS-h3uahYtGZtJsj4m2iDwecWvweLuunk'
 ---

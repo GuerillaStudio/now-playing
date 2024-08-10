@@ -8,7 +8,7 @@ styles:
   - Dance Music
 links:
   spotify: https://play.spotify.com/album/5MruJPW5X4cal6bpN7llrF
-  youtube: https://music.youtube.com/watch?v=vsOaFuHfpKs
+  youtube: https://youtube.com/watch?v=vsOaFuHfpKs
   applemusic: https://music.apple.com/album/sigma/1159663862
   soundcloud: ""
   bandcamp: ""

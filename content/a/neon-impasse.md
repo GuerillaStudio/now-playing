@@ -8,7 +8,7 @@ styles:
   - Lofi
 links:
   spotify: https://play.spotify.com/album/3M1CEjZiljxpfxoHFHoqNP
-  youtube: https://music.youtube.com/watch?v=axkOqrLtDXo
+  youtube: https://youtube.com/watch?v=axkOqrLtDXo
   applemusic: https://music.apple.com/album/neon-impasse/1396662779
   soundcloud: https://soundcloud.com/citygrl/tracks
   bandcamp: https://city-girl.bandcamp.com/album/neon-impasse

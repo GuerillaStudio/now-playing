@@ -9,7 +9,7 @@ styles:
   - Chiptunes
 links:
   spotify: https://play.spotify.com/album/5gbx19kacvI2h0bA2Olvxw
-  youtube: https://music.youtube.com/watch?v=seK16yzJNsA
+  youtube: https://youtube.com/watch?v=seK16yzJNsA
   applemusic: https://music.apple.com/album/technokinesis-ep/1135773955
   soundcloud: ""
   bandcamp: https://meganeko.bandcamp.com/album/technokinesis

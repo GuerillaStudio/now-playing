@@ -8,7 +8,7 @@ styles:
   - Punk-Rock
 links:
   spotify: https://play.spotify.com/album/0vVfz83xY2wlyfVCb1ShVh
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_n61BrNjTPXfC8wOFLq9GL_9NMcSWIdAos
+  youtube: https://youtube.com/playlist?list=OLAK5uy_n61BrNjTPXfC8wOFLq9GL_9NMcSWIdAos
   applemusic: https://music.apple.com/album/i-want-the-world/1450266447
   soundcloud: https://soundcloud.com/hands-off-gretel/sets/i-want-the-world-2
   bandcamp: ""

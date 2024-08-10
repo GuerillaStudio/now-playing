@@ -9,7 +9,7 @@ styles:
   - Post-Rock
 links:
   spotify: https://play.spotify.com/album/36vGWMFViWBpBB4npwmusv
-  youtube: https://music.youtube.com/watch?v=4qOeZzZh9MM
+  youtube: https://youtube.com/watch?v=4qOeZzZh9MM
   applemusic: https://music.apple.com/album/handmade-cities/1143950631
   soundcloud: ""
   bandcamp: https://plini.bandcamp.com/album/handmade-cities

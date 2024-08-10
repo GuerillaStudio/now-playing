@@ -8,7 +8,7 @@ styles:
   - Synthwave
 links:
   spotify: https://play.spotify.com/album/7ksle1gFTICo9rKw14dvC5
-  youtube: https://music.youtube.com/watch?v=qEoxu0_8uZU
+  youtube: https://youtube.com/watch?v=qEoxu0_8uZU
   applemusic: https://music.apple.com/album/new-model/1274328467
   soundcloud: ""
   bandcamp: https://perturbator.bandcamp.com/album/new-model

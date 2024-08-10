@@ -8,7 +8,7 @@ styles:
   - Black Metal
 links:
   spotify: https://play.spotify.com/album/1nWcB3qwsbx0nimMZH6sCw
-  youtube: https://music.youtube.com/watch?v=ef7bKmQVcX8
+  youtube: https://youtube.com/watch?v=ef7bKmQVcX8
   applemusic: https://music.apple.com/album/kodama-deluxe-edition/1144895262
   soundcloud: ""
   bandcamp: https://alcest.bandcamp.com/album/kodama

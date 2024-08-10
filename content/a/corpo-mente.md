@@ -9,7 +9,7 @@ styles:
   - Metal
 links:
   spotify: https://play.spotify.com/album/13TFD9hLg0f7pVgsnfGvlf
-  youtube: https://music.youtube.com/watch?v=96EeSx60gYw
+  youtube: https://youtube.com/watch?v=96EeSx60gYw
   applemusic: https://music.apple.com/album/corpo-mente/968848517
   soundcloud: ""
   bandcamp: https://blood-music.bandcamp.com/album/corpo-mente

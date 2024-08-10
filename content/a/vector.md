@@ -7,7 +7,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://play.spotify.com/album/1PhYHO7Pva9e1YQY5GQ8zx
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mGtomGb1wIdcCwjFcFcHYF1iRFARdxABU
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mGtomGb1wIdcCwjFcFcHYF1iRFARdxABU
   applemusic: https://music.apple.com/album/vector-deluxe-edition/1433979909
   soundcloud: ""
   bandcamp: ""

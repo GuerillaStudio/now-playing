@@ -11,5 +11,5 @@ links:
   deezer: 'https://www.deezer.com/album/41232611'
   soundcloud: 'https://soundcloud.com/paramore/sets/after-laughter-1'
   spotify: 'https://play.spotify.com/album/1c9Sx7XdXuMptGyfCB6hHs'
-  youtube: 'https://music.youtube.com/playlist?list=OLAK5uy_k1w7hO8N1QJ-kUTlfa1wzy7TcYXRX5VOM'
+  youtube: 'https://youtube.com/playlist?list=OLAK5uy_k1w7hO8N1QJ-kUTlfa1wzy7TcYXRX5VOM'
 ---

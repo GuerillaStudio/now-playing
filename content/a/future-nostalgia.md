@@ -8,7 +8,7 @@ styles:
   - Disco
 links:
   spotify: https://play.spotify.com/album/5lKlFlReHOLShQKyRv6AL9
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mqO_kf7YFPjbtEU3FYSILA-IZtxv_NrKQ
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mqO_kf7YFPjbtEU3FYSILA-IZtxv_NrKQ
   applemusic: https://music.apple.com/album/future-nostalgia-the-moonlight-edition/1551178998
   soundcloud: ""
   bandcamp: ""

@@ -7,7 +7,7 @@ styles:
   - Indie Pop
 links:
   spotify: https://play.spotify.com/album/22Q7rFTYQyqwcgmpNJbjrP
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_nvsBn7e1feZhGUcOAy18ixltzcDe9gYTI
+  youtube: https://youtube.com/playlist?list=OLAK5uy_nvsBn7e1feZhGUcOAy18ixltzcDe9gYTI
   applemusic: https://music.apple.com/album/bad-ideas/1482084346
   soundcloud: ""
   bandcamp: ""

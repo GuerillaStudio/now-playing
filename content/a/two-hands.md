@@ -7,7 +7,7 @@ styles:
   - Hard Rock
 links:
   spotify: https://play.spotify.com/album/4jrJCDrQu0bZ1mzTbJED4z
-  youtube: https://music.youtube.com/watch?v=pY7zqDemqZo
+  youtube: https://youtube.com/watch?v=pY7zqDemqZo
   applemusic: https://music.apple.com/album/two-hands/966055666
   soundcloud: ""
   bandcamp: ""

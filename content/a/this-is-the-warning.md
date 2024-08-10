@@ -8,7 +8,7 @@ styles:
   - Progressive Rock
 links:
   spotify: https://open.spotify.com/album/358GkVbGoo9mrJzZgrkBh8?si=GFTirUbNRvaWfHBUZwWWRg
-  youtube: https://music.youtube.com/watch?v=9TDJdG_pPK8
+  youtube: https://youtube.com/watch?v=9TDJdG_pPK8
   applemusic: https://music.apple.com/album/this-is-the-warning/611628677
   soundcloud: ""
   bandcamp: ""

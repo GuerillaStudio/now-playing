@@ -13,5 +13,5 @@ links:
   deezer: 'https://www.deezer.com/album/128659742'
   soundcloud: 'https://soundcloud.com/meganeko/sets/eclipse'
   spotify: 'https://play.spotify.com/album/6j3YaexmmMgg7rueDrFsqp'
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mWn2Su3TG8AdTDYwxamy-SytGpUY190l8
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mWn2Su3TG8AdTDYwxamy-SytGpUY190l8
 ---

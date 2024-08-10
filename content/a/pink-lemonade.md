@@ -8,7 +8,7 @@ styles:
   - Psychedelic Rock
 links:
   spotify: https://open.spotify.com/album/1S0dJcSjS7imowLavbihCs?si=QXELI6x6Rkuv_YCxCMLmDA
-  youtube: https://music.youtube.com/watch?v=6Q6dQW-HHjo
+  youtube: https://youtube.com/watch?v=6Q6dQW-HHjo
   applemusic: https://music.apple.com/album/pink-lemonade/859035949
   soundcloud: ""
   bandcamp: ""

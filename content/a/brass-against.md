@@ -9,7 +9,7 @@ styles:
   - Protest song
 links:
   spotify: https://play.spotify.com/album/1913aaFRHUUj4LxxBNTw79
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mst8qQ62KC5QYicl7zrA38z0plFJJdqec
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mst8qQ62KC5QYicl7zrA38z0plFJJdqec
   applemusic: https://music.apple.com/album/brass-against/1483295648
   soundcloud: https://soundcloud.com/brassagainst/sets/brass-against
   bandcamp: ""

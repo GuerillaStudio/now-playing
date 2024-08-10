@@ -8,7 +8,7 @@ styles:
   - Psychedelic Pop
 links:
   spotify: https://play.spotify.com/album/14IOe7ahxQPTwUYUQX3IFi
-  youtube: https://music.youtube.com/watch?v=nOHEuhJf7nA
+  youtube: https://youtube.com/watch?v=nOHEuhJf7nA
   applemusic: https://music.apple.com/album/zaba/860685871
   soundcloud: ""
   bandcamp: ""

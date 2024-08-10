@@ -7,7 +7,7 @@ styles:
   - Progressive Rock
 links:
   spotify: https://play.spotify.com/album/1UxORLzYOVBrrxRWA1cSjf
-  youtube: https://music.youtube.com/watch?v=-axgj7JywCA
+  youtube: https://youtube.com/watch?v=-axgj7JywCA
   applemusic: https://music.apple.com/album/all-the-wars-deluxe-edition/675858750
   soundcloud: ""
   bandcamp: ""

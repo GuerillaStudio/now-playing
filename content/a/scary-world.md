@@ -8,7 +8,7 @@ styles:
   - Darkwave
 links:
   spotify: https://play.spotify.com/album/6HQ5FnWEsk4rJ2vKgHx1O6
-  youtube: https://music.youtube.com/watch?v=Um15yw9VpSI
+  youtube: https://youtube.com/watch?v=Um15yw9VpSI
   applemusic: https://music.apple.com/album/scary-world/1382730510
   soundcloud: ""
   bandcamp: https://nightclubband.com/album/scary-world

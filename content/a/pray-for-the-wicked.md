@@ -7,7 +7,7 @@ styles:
   - Pop rock
 links:
   spotify: https://play.spotify.com/album/6ApYSpXF8GxZAgBTHDzYge
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_nxMCsNCpIcKOv5HGsDc1vGcnaZgh2tXMM
+  youtube: https://youtube.com/playlist?list=OLAK5uy_nxMCsNCpIcKOv5HGsDc1vGcnaZgh2tXMM
   applemusic: https://music.apple.com/album/pray-for-the-wicked/1361152002
   soundcloud: ""
   bandcamp: ""

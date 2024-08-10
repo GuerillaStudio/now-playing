@@ -7,7 +7,7 @@ styles:
   - Post-Rock
 links:
   spotify: https://play.spotify.com/album/4RXsEYZdNpDeDhehpInuYa
-  youtube: https://music.youtube.com/watch?v=Oblbsp9zHp8
+  youtube: https://youtube.com/watch?v=Oblbsp9zHp8
   applemusic: https://music.apple.com/album/inhale-exhale/1290138057
   soundcloud: ""
   bandcamp: https://glaston.bandcamp.com/album/inhale-exhale

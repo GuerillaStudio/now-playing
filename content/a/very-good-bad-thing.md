@@ -7,7 +7,7 @@ styles:
   - Indie Rock
 links:
   spotify: https://open.spotify.com/album/5YywOUCkZuTWzEThxrDEIu?si=iSkCX3uFS32PNU4zLSks4g
-  youtube: https://music.youtube.com/watch?v=gsYDpUetROE
+  youtube: https://youtube.com/watch?v=gsYDpUetROE
   applemusic: https://music.apple.com/album/very-good-bad-thing/974696853
   soundcloud: ""
   bandcamp: ""

@@ -8,7 +8,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://play.spotify.com/album/0Rm1Q7jINtrkDbfXfqnlYg
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_kES9gUWsxL9Vv2oJyuTtQeqDk1RrnCLi0
+  youtube: https://youtube.com/playlist?list=OLAK5uy_kES9gUWsxL9Vv2oJyuTtQeqDk1RrnCLi0
   applemusic: https://music.apple.com/album/dead-end-kings-deluxe-edition/675838299
   soundcloud: ""
   bandcamp: ""

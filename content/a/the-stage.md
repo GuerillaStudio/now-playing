@@ -7,7 +7,7 @@ styles:
   - Heavy Metal
 links:
   spotify: https://open.spotify.com/album/0jwnYwJz6XHNrVAYEclQPd?si=ANPhFNlZRpe66e01D7kzHg
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_n613WhF-77JVsHfC8sEb6Nqto_TDGPlQk
+  youtube: https://youtube.com/playlist?list=OLAK5uy_n613WhF-77JVsHfC8sEb6Nqto_TDGPlQk
   applemusic: https://music.apple.com/fr/album/the-stage/1442217154
   soundcloud: ""
   bandcamp: ""

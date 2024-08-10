@@ -8,7 +8,7 @@ styles:
   - Electronica
 links:
   spotify: https://play.spotify.com/album/3OG0RkesWMYcJzIK2seQI8
-  youtube: https://music.youtube.com/watch?v=6odDOOyUawY
+  youtube: https://youtube.com/watch?v=6odDOOyUawY
   applemusic: https://music.apple.com/album/electric-girl/577498563
   soundcloud: ""
   bandcamp: https://sheofficial.bandcamp.com/album/electric-girl

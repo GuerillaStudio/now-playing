@@ -8,7 +8,7 @@ styles:
   - Piano
 links:
   spotify: https://play.spotify.com/album/3QKIo3AeabD6mQ6tsc8rTQ
-  youtube: https://music.youtube.com/watch?v=N52VD2LzQmw
+  youtube: https://youtube.com/watch?v=N52VD2LzQmw
   applemusic: https://music.apple.com/album/healing/1206416305
   soundcloud: ""
   bandcamp: https://inlovewithaghost.bandcamp.com/album/healing

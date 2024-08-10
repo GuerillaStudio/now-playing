@@ -7,7 +7,7 @@ styles:
   - Trip pop
 links:
   spotify: https://play.spotify.com/album/6SpDB8znJJGwcuoj2GW1cV
-  youtube: https://music.youtube.com/watch?v=javNyyatPac
+  youtube: https://youtube.com/watch?v=javNyyatPac
   applemusic: https://music.apple.com/gb/album/londinium/13433772
   soundcloud: ""
   bandcamp: ""

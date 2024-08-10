@@ -7,7 +7,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://open.spotify.com/album/1vjVyrpeom5P4YmzZIPpKD?si=kugSmix5QKG5BpArPC1GKQ
-  youtube: https://music.youtube.com/watch?v=Pexputk3K2U
+  youtube: https://youtube.com/watch?v=Pexputk3K2U
   applemusic: https://music.apple.com/album/everchild/1103153937
   soundcloud: ""
   bandcamp: https://dark-suns.bandcamp.com/album/everchild

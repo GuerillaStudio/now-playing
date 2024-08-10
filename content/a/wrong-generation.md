@@ -8,7 +8,7 @@ styles:
   - Rapcore
 links:
   spotify: https://play.spotify.com/album/0ENzm2HTf7mfFjWZ7CaB5u
-  youtube: https://music.youtube.com/browse/MPREb_0FgNvLvKMMB
+  youtube: https://youtube.com/browse/MPREb_0FgNvLvKMMB
   applemusic: https://music.apple.com/album/wrong-generation/1535816008
   soundcloud: ""
   bandcamp: ""

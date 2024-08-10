@@ -12,5 +12,5 @@ links:
   deezer: 'https://www.deezer.com/album/14957855'
   soundcloud: ''
   spotify: 'https://play.spotify.com/album/3m4tfKRhqB9e4Lz5nBDxPh'
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_lBIjFbTjS0epuA2IauKsszHCDnDaHxFn0
+  youtube: https://youtube.com/playlist?list=OLAK5uy_lBIjFbTjS0epuA2IauKsszHCDnDaHxFn0
 ---

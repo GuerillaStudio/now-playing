@@ -8,7 +8,7 @@ styles:
   - Chiptunes
 links:
   spotify: https://play.spotify.com/album/5jvE3154gLNiw3MDpjd7WH
-  youtube: https://music.youtube.com/watch?v=k5B_9sJ1FDI
+  youtube: https://youtube.com/watch?v=k5B_9sJ1FDI
   applemusic: https://music.apple.com/album/the-other-side/1004301530
   soundcloud: ""
   bandcamp: https://lukhash.bandcamp.com/album/the-other-side

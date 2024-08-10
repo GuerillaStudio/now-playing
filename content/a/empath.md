@@ -7,7 +7,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://play.spotify.com/album/7MPJRyMFbWbgezRP2Pj4TZ
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_kdKBsbD1ijv4SgbhTxyxiGfaLDBxJqnE0
+  youtube: https://youtube.com/playlist?list=OLAK5uy_kdKBsbD1ijv4SgbhTxyxiGfaLDBxJqnE0
   applemusic: https://music.apple.com/album/empath-deluxe-edition/1449841303
   soundcloud: ""
   bandcamp: ""

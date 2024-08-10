@@ -9,7 +9,7 @@ styles:
   - Klezmer
 links:
   spotify: https://play.spotify.com/album/47mQzkFFJj6MrHfV8aLwWH
-  youtube: https://music.youtube.com/watch?v=Zui_h31WfZQ
+  youtube: https://youtube.com/watch?v=Zui_h31WfZQ
   applemusic: https://music.apple.com/album/17-deutsche-t%C3%A4nze/857626040
   soundcloud: ""
   bandcamp: ""

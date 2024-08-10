@@ -9,7 +9,7 @@ styles:
   - Ambiance
 links:
   spotify: https://play.spotify.com/album/358HhLekPvkg13A1dDPfhT
-  youtube: https://music.youtube.com/watch?v=rbg6D7CwId4
+  youtube: https://youtube.com/watch?v=rbg6D7CwId4
   applemusic: https://music.apple.com/album/hyper-light-drifter/1105137237
   soundcloud: ""
   bandcamp: https://music.disasterpeace.com/album/hyper-light-drifter

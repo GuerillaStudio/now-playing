@@ -8,7 +8,7 @@ styles:
   - electro industrial
 links:
   spotify: https://open.spotify.com/album/57Gap1bLf80bG8yfhyBjzD
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mgnG_ZtWVvWxLK5UBGNn0WphBa5aS1Mvk
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mgnG_ZtWVvWxLK5UBGNn0WphBa5aS1Mvk
   applemusic: https://music.apple.com/fr/album/_/1623693056
   soundcloud: ""
   bandcamp: https://adarook.bandcamp.com/album/ugly-death-no-redemption-angel-curse-i-love-you

@@ -9,7 +9,7 @@ styles:
   - Funk
 links:
   spotify: https://open.spotify.com/album/6MjtsP8KTYhasnb1sdrUkZ?si=doSkWxgKQCqDBylAVeCdUw
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_kmx4-2DPtGGiiWTHzDEYgftHwPGG20Y0k
+  youtube: https://youtube.com/playlist?list=OLAK5uy_kmx4-2DPtGGiiWTHzDEYgftHwPGG20Y0k
   applemusic: https://music.apple.com/album/_/1640302279
   soundcloud: https://soundcloud.com/tora-sc/sets/seventeen-757232488
   bandcamp: ""

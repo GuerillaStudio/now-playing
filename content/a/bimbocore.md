@@ -9,7 +9,7 @@ styles:
   - Pop-Punk
 links:
   spotify: https://open.spotify.com/album/40yJpavMZdcV1lhGNwWJZ0
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_luqRUNWUtxUmjDiPichg7ZOFfi77HQdWI
+  youtube: https://youtube.com/playlist?list=OLAK5uy_luqRUNWUtxUmjDiPichg7ZOFfi77HQdWI
   applemusic: https://music.apple.com/album/_/1618973853
   soundcloud: https://soundcloud.com/scenequeen-music/sets/bimbocore-1
   bandcamp: https://hopelessrecords.bandcamp.com/album/bimbocore

@@ -8,7 +8,7 @@ styles:
   - Rapcore
 links:
   spotify: https://play.spotify.com/album/5PvosHtqCuqLK8A131lGZf
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_k2sI9KPddXiy8mkM1I0IHdKCKzmMPBoAc
+  youtube: https://youtube.com/playlist?list=OLAK5uy_k2sI9KPddXiy8mkM1I0IHdKCKzmMPBoAc
   applemusic: https://music.apple.com/album/strength-in-numb333rs/1441326645
   soundcloud: https://soundcloud.com/thefever333-music/sets/strength-in-numb333rs
   bandcamp: ""

@@ -9,7 +9,7 @@ styles:
   - Post-bop
 links:
   spotify: https://play.spotify.com/album/1LeBjxguhl0sNpmJSc4aKu
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_lpVrYFUwU8khbJSsh567KfI22jhyU0YKI
+  youtube: https://youtube.com/playlist?list=OLAK5uy_lpVrYFUwU8khbJSsh567KfI22jhyU0YKI
   applemusic: https://music.apple.com/album/voice-feat-anthony-jackson-simon-phillips/440923034
   soundcloud: ""
   bandcamp: ""

@@ -8,7 +8,7 @@ styles:
   - Post Rock
 links:
   spotify: https://play.spotify.com/album/0p46EDlybGlyRyd44gZseq
-  youtube: https://music.youtube.com/watch?v=0oz6nzPSZLg
+  youtube: https://youtube.com/watch?v=0oz6nzPSZLg
   applemusic: https://music.apple.com/album/minor-victories/1083764200
   soundcloud: ""
   bandcamp: https://minorvictories.bandcamp.com/album/minor-victories

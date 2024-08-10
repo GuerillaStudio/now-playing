@@ -8,7 +8,7 @@ styles:
   - Hard Rock
 links:
   spotify: https://play.spotify.com/album/1KMfjy6MmPorahRjxhTnxm
-  youtube: https://music.youtube.com/watch?v=C_ijc7A5oAc
+  youtube: https://youtube.com/watch?v=C_ijc7A5oAc
   applemusic: https://music.apple.com/album/prequelle/1368196699
   soundcloud: ""
   bandcamp: ""

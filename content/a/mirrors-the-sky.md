@@ -8,7 +8,7 @@ styles:
   - Psychedelic
 links:
   spotify: https://open.spotify.com/album/4SzIpAMMprn1lzbEKogwCI?si=M9ViRHUNSfCGSp6IxNXhDw
-  youtube: https://music.youtube.com/watch?v=77lquzoHPk4
+  youtube: https://youtube.com/watch?v=77lquzoHPk4
   applemusic: https://music.apple.com/album/mirrors-the-sky/784935884
   soundcloud: ""
   bandcamp: ""

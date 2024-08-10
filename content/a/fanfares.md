@@ -8,7 +8,7 @@ styles:
   - Electronica
 links:
   spotify: https://play.spotify.com/album/779P1LBXo4NylXQ0sHSKqT
-  youtube: https://music.youtube.com/watch?v=1oE9CtmSGSE
+  youtube: https://youtube.com/watch?v=1oE9CtmSGSE
   applemusic: https://music.apple.com/album/fanfares/572204164
   soundcloud: ""
   bandcamp: ""

@@ -7,7 +7,7 @@ styles:
   - Alternative Rock
 links:
   spotify: https://play.spotify.com/album/3q4BkDV5B7sczFcfrIl2a2
-  youtube: https://music.youtube.com/watch?v=X2zcG3bcuMI
+  youtube: https://youtube.com/watch?v=X2zcG3bcuMI
   applemusic: https://music.apple.com/album/nothing-but-thieves-deluxe/1016210775
   soundcloud: ""
   bandcamp: ""

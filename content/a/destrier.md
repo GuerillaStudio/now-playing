@@ -8,7 +8,7 @@ styles:
   - Progressive Metal
 links:
   spotify: https://play.spotify.com/album/1syoohGc0fQAoJWy57XZUF
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_ly2l_0CWU_yhpibZAyBMvd-ZGKA2r4Jrc
+  youtube: https://youtube.com/playlist?list=OLAK5uy_ly2l_0CWU_yhpibZAyBMvd-ZGKA2r4Jrc
   applemusic: https://music.apple.com/album/destrier/1349662969
   soundcloud: ""
   bandcamp: ""

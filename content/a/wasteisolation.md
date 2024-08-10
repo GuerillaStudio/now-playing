@@ -8,7 +8,7 @@ styles:
   - electro industrial
 links:
   spotify: ""
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_mEUKE9khbFFNyPRCcO9UFshmFZrylWCAE
+  youtube: https://youtube.com/playlist?list=OLAK5uy_mEUKE9khbFFNyPRCcO9UFshmFZrylWCAE
   applemusic: ""
   soundcloud: ""
   bandcamp: https://blackdresses.bandcamp.com/album/wasteisolation

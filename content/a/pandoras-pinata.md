@@ -9,7 +9,7 @@ styles:
   - Symphonic Metal
 links:
   spotify: https://play.spotify.com/album/0pRLYXwvvYYqMZPV9qLihC
-  youtube: https://music.youtube.com/watch?v=WcRtdrsRQ5o
+  youtube: https://youtube.com/watch?v=WcRtdrsRQ5o
   applemusic: https://music.apple.com/album/pandoras-pinata/1201984804
   soundcloud: ""
   bandcamp: ""

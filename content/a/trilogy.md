@@ -7,7 +7,7 @@ styles:
   - Electronic
 links:
   spotify: https://play.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U
-  youtube: https://music.youtube.com/playlist?list=OLAK5uy_n605tdRYQ63n073eyZnElBgBVTMtHK6nI
+  youtube: https://youtube.com/playlist?list=OLAK5uy_n605tdRYQ63n073eyZnElBgBVTMtHK6nI
   applemusic: https://music.apple.com/album/trilogy/571371388
   soundcloud: ""
   bandcamp: ""

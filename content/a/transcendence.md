@@ -8,7 +8,7 @@ styles:
   - Heavy Metal
 links:
   spotify: https://play.spotify.com/album/3C3x7g8DmzmnXd6Busxugp
-  youtube: https://music.youtube.com/watch?v=44TzcehU0V8
+  youtube: https://youtube.com/watch?v=44TzcehU0V8
   applemusic: https://music.apple.com/album/transcendence-deluxe-edition/1138087195
   soundcloud: ""
   bandcamp: ""
