@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/779P1LBXo4NylXQ0sHSKqT
   youtube: https://music.youtube.com/watch?v=1oE9CtmSGSE
-  applemusic: https://itunes.apple.com/us/album/fanfares/572204164?uo=4
+  applemusic: https://music.apple.com/album/fanfares/572204164
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/6022301

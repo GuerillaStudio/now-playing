@@ -11,7 +11,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/34b5dp5AqONc7Yy96YUa7e
   youtube: https://music.youtube.com/watch?v=jJlfRkkYz5I
-  applemusic: https://itunes.apple.com/us/album/lux/917621913?uo=4
+  applemusic: https://music.apple.com/album/lux/917621913
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/8599890

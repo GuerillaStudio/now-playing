@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/track/1HDApabtZoWpGEcWAMMyNM
   youtube: https://www.youtube.com/watch?v=QdabIfmcqSQ
-  applemusic: https://itunes.apple.com/us/album/miracle/1450977294?i=1450977507&uo=4
+  applemusic: https://music.apple.com/album/miracle/1450977294?i=1450977507&uo=4
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/fr/album/85249812

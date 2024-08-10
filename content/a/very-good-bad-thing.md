@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/5YywOUCkZuTWzEThxrDEIu?si=iSkCX3uFS32PNU4zLSks4g
   youtube: https://music.youtube.com/watch?v=gsYDpUetROE
-  applemusic: https://itunes.apple.com/us/album/very-good-bad-thing/974696853?uo=4
+  applemusic: https://music.apple.com/album/very-good-bad-thing/974696853
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/8965799

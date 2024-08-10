@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/358HhLekPvkg13A1dDPfhT
   youtube: https://music.youtube.com/watch?v=rbg6D7CwId4
-  applemusic: https://itunes.apple.com/us/album/hyper-light-drifter/1105137237?uo=4
+  applemusic: https://music.apple.com/album/hyper-light-drifter/1105137237
   soundcloud: ""
   bandcamp: https://music.disasterpeace.com/album/hyper-light-drifter
   deezer: https://www.deezer.com/album/13049714

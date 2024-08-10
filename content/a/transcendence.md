@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/3C3x7g8DmzmnXd6Busxugp
   youtube: https://music.youtube.com/watch?v=44TzcehU0V8
-  applemusic: https://itunes.apple.com/us/album/transcendence-deluxe-edition/1138087195?uo=4
+  applemusic: https://music.apple.com/album/transcendence-deluxe-edition/1138087195
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/13994398

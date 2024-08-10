@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/7wAuch2tK7ypSdz3bvQ8Io
   youtube: https://music.youtube.com/playlist?list=PLMEOLAYxGgstLEUGRx8kCF15EFBG5M95X
-  applemusic: https://music.apple.com/us/album/chronologic/1467837311?ign-mpt=uo%3D4
+  applemusic: https://music.apple.com/album/chronologic/1467837311?ign-mpt=uo%3D4
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/100026582

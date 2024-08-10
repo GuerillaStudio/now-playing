@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0pRLYXwvvYYqMZPV9qLihC
   youtube: https://music.youtube.com/watch?v=WcRtdrsRQ5o
-  applemusic: https://itunes.apple.com/us/album/pandoras-pinata/1201984804?uo=4
+  applemusic: https://music.apple.com/album/pandoras-pinata/1201984804
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/15801656

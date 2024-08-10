@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/1KMfjy6MmPorahRjxhTnxm
   youtube: https://music.youtube.com/watch?v=C_ijc7A5oAc
-  applemusic: https://itunes.apple.com/us/album/prequelle/1368196699?uo=4
+  applemusic: https://music.apple.com/album/prequelle/1368196699
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/64572462

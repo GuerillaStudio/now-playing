@@ -7,11 +7,10 @@ styles:
   - Punk
   - Punk-Rock
 links:
-  applemusic: 'https://music.apple.com/us/album/here-we-go-again/605077165?uo=4'
+  applemusic: 'https://music.apple.com/album/here-we-go-again/605077165'
   bandcamp: ''
   deezer: 'https://www.deezer.com/album/6400771'
   soundcloud: ''
   spotify: 'https://play.spotify.com/album/7ugf5XKDrfh0yB5Q35pV3X'
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_l28b6AXI1MVtJXxk_m1-obuVGxXw7WQ1I
 ---
-

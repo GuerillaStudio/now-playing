@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/13TFD9hLg0f7pVgsnfGvlf
   youtube: https://music.youtube.com/watch?v=96EeSx60gYw
-  applemusic: https://itunes.apple.com/us/album/corpo-mente/968848517?uo=4
+  applemusic: https://music.apple.com/album/corpo-mente/968848517
   soundcloud: ""
   bandcamp: https://blood-music.bandcamp.com/album/corpo-mente
   deezer: ""

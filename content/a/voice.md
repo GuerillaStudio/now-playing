@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/1LeBjxguhl0sNpmJSc4aKu
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_lpVrYFUwU8khbJSsh567KfI22jhyU0YKI
-  applemusic: https://itunes.apple.com/us/album/voice-feat-anthony-jackson-simon-phillips/440923034?uo=4
+  applemusic: https://music.apple.com/album/voice-feat-anthony-jackson-simon-phillips/440923034
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/1142795

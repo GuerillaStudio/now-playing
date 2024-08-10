@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_n605tdRYQ63n073eyZnElBgBVTMtHK6nI
-  applemusic: https://itunes.apple.com/us/album/trilogy/571371388?uo=4
+  applemusic: https://music.apple.com/album/trilogy/571371388
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/6086515

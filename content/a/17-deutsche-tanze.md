@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/47mQzkFFJj6MrHfV8aLwWH
   youtube: https://music.youtube.com/watch?v=Zui_h31WfZQ
-  applemusic: https://itunes.apple.com/us/album/17-deutsche-t%C3%A4nze/857626040?uo=4
+  applemusic: https://music.apple.com/album/17-deutsche-t%C3%A4nze/857626040
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/7689072

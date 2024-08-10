@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/3fn89P5TQ31Mp0yayUWuvT
   youtube: https://music.youtube.com/watch?v=Irk0BbcS_0k
-  applemusic: https://itunes.apple.com/us/album/for-house-cats-and-sea-fans/838308016?uo=4
+  applemusic: https://music.apple.com/album/for-house-cats-and-sea-fans/838308016
   soundcloud: ""
   bandcamp: https://elysianfields.bandcamp.com/album/for-house-cats-and-sea-fans
   deezer: https://www.deezer.com/album/15509952

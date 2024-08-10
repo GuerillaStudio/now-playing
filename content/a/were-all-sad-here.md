@@ -12,7 +12,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/1twRDbvHKiuFTLeAKfMbH4
   youtube: https://www.youtube.com/playlist?list=OLAK5uy_ly75F4_u9swUUhHFlG7-PEz5_7_He7YU8
-  applemusic: https://geo.music.apple.com/fr/album/_/1632544281?mt=1&app=music&ls=1&at=1000lHKX&ct=odesli_http&itscg=30200&itsct=odsl_m
+  applemusic: https://music.apple.com/album/_/1632544281
   soundcloud: https://soundcloud.com/zevia-79495081/sets/were-all-sad-here
   bandcamp: ""
   deezer: https://www.deezer.com/album/331985187

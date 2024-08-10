@@ -10,7 +10,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/36vGWMFViWBpBB4npwmusv
   youtube: https://music.youtube.com/watch?v=4qOeZzZh9MM
-  applemusic: https://itunes.apple.com/us/album/handmade-cities/1143950631?uo=4
+  applemusic: https://music.apple.com/album/handmade-cities/1143950631
   soundcloud: ""
   bandcamp: https://plini.bandcamp.com/album/handmade-cities
   deezer: https://www.deezer.com/album/76263232

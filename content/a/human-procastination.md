@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/5BPYm3a8hvDKC6ExMksoGQ
   youtube: ""
-  applemusic: https://music.apple.com/us/album/human-procrastination-ep/1476294834?uo=4
+  applemusic: https://music.apple.com/album/human-procrastination-ep/1476294834
   soundcloud: https://soundcloud.com/lookmumnocomputer/sets/human-procrastination
   bandcamp: ""
   deezer: https://www.deezer.com/album/107196832

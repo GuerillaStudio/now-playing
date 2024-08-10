@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0vVfz83xY2wlyfVCb1ShVh
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_n61BrNjTPXfC8wOFLq9GL_9NMcSWIdAos
-  applemusic: https://music.apple.com/us/album/i-want-the-world/1450266447?uo=4
+  applemusic: https://music.apple.com/album/i-want-the-world/1450266447
   soundcloud: https://soundcloud.com/hands-off-gretel/sets/i-want-the-world-2
   bandcamp: ""
   deezer: https://www.deezer.com/album/85090872

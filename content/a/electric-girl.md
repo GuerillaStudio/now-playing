@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/3OG0RkesWMYcJzIK2seQI8
   youtube: https://music.youtube.com/watch?v=6odDOOyUawY
-  applemusic: https://itunes.apple.com/us/album/electric-girl/577498563?uo=4
+  applemusic: https://music.apple.com/album/electric-girl/577498563
   soundcloud: ""
   bandcamp: https://sheofficial.bandcamp.com/album/electric-girl
   deezer: ""

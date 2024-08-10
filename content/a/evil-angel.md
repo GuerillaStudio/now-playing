@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/643BLbAlUxCAPOoesvfSb7?si=QLgIriYBSF60mgmF88CZQg
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_kk8K6M97HqjXwKPz8uKrf1VA5GLTwfocA
-  applemusic: https://music.apple.com/us/album/evil-angel/1540873528?uo=4
+  applemusic: https://music.apple.com/album/evil-angel/1540873528
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/187159602

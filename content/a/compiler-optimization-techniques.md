@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/1ayCLVhBNn15dW5jSUHRUC
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_nNAQghQal08o8gmf6pzbYfA3RCfRZvpGQ
-  applemusic: https://itunes.apple.com/us/album/compiler-optimization-techniques/1438037424?uo=4
+  applemusic: https://music.apple.com/album/compiler-optimization-techniques/1438037424
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/74780382

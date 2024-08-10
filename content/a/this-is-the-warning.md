@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/358GkVbGoo9mrJzZgrkBh8?si=GFTirUbNRvaWfHBUZwWWRg
   youtube: https://music.youtube.com/watch?v=9TDJdG_pPK8
-  applemusic: https://itunes.apple.com/us/album/this-is-the-warning/611628677?uo=4
+  applemusic: https://music.apple.com/album/this-is-the-warning/611628677
   soundcloud: ""
   bandcamp: ""
   deezer: ""

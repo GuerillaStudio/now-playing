@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/4RXsEYZdNpDeDhehpInuYa
   youtube: https://music.youtube.com/watch?v=Oblbsp9zHp8
-  applemusic: https://itunes.apple.com/us/album/inhale-exhale/1290138057?uo=4
+  applemusic: https://music.apple.com/album/inhale-exhale/1290138057
   soundcloud: ""
   bandcamp: https://glaston.bandcamp.com/album/inhale-exhale
   deezer: https://www.deezer.com/album/48940282

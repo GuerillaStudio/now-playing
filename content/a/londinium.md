@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/6SpDB8znJJGwcuoj2GW1cV
   youtube: https://music.youtube.com/watch?v=javNyyatPac
-  applemusic: https://itunes.apple.com/gb/album/londinium/13433772?uo=4
+  applemusic: https://music.apple.com/gb/album/londinium/13433772
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/123427

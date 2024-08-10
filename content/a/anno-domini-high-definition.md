@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/2BJkbdmzqURLLnS6xQBmlA
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_mxdqvMWnLthi5www5X1Gs1jGmmxhHgYQI
-  applemusic: https://music.apple.com/us/album/anno-domini-high-definition-ep/1045704264?uo=4
+  applemusic: https://music.apple.com/album/anno-domini-high-definition-ep/1045704264
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/11324382

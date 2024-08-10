@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0q4NNa4HObPsqloh6dwVXl
   youtube: https://music.youtube.com/watch?v=8EGYVS7jUn8
-  applemusic: https://itunes.apple.com/us/album/out-of-body/735505142?uo=4
+  applemusic: https://music.apple.com/album/out-of-body/735505142
   soundcloud: ""
   bandcamp: https://dancewiththedead.bandcamp.com/album/out-of-body
   deezer: https://www.deezer.com/album/7089510

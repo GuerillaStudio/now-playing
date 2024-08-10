@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/1nWcB3qwsbx0nimMZH6sCw
   youtube: https://music.youtube.com/watch?v=ef7bKmQVcX8
-  applemusic: https://itunes.apple.com/us/album/kodama-deluxe-edition/1144895262?uo=4
+  applemusic: https://music.apple.com/album/kodama-deluxe-edition/1144895262
   soundcloud: ""
   bandcamp: https://alcest.bandcamp.com/album/kodama
   deezer: https://www.deezer.com/album/13824584

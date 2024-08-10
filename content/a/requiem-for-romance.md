@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0zu08xsfuBBMFWpfQ92KRv
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_lZZfs2onr_i5SHT26k_P8GvI22T1sEfhQ
-  applemusic: https://itunes.apple.com/us/album/requiem-for-romance/1275538538?uo=4
+  applemusic: https://music.apple.com/album/requiem-for-romance/1275538538
   soundcloud: ""
   bandcamp: https://nightclubband.com/album/requiem-for-romance
   deezer: https://www.deezer.com/album/46909342

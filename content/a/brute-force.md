@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/4Ijivtrfqk2AMTF4dhrl2Q
   youtube: https://music.youtube.com/watch?v=aik31J5m95A
-  applemusic: https://itunes.apple.com/us/album/brute-force/1083396755?uo=4
+  applemusic: https://music.apple.com/album/brute-force/1083396755
   soundcloud: ""
   bandcamp: https://thealgorithm.bandcamp.com/album/brute-force
   deezer: https://www.deezer.com/album/15742314

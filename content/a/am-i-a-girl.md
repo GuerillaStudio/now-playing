@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/5QCXxPUwoOtxeZQmve6w2u
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_lQAMs9Xwg9-iYwl-m5EpBTrrjazLt2iRY
-  applemusic: https://music.apple.com/us/album/am-i-a-girl/1439540395?uo=4
+  applemusic: https://music.apple.com/album/am-i-a-girl/1439540395
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/76089452

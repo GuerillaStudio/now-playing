@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/6Yi4tnW7O7FUW9kK3bAUhT
   youtube: https://music.youtube.com/watch?v=U4_3Kt8HP0A
-  applemusic: https://itunes.apple.com/us/album/play-with-fire/667827437?uo=4
+  applemusic: https://music.apple.com/album/play-with-fire/667827437
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/6728472

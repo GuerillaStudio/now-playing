@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/3QKIo3AeabD6mQ6tsc8rTQ
   youtube: https://music.youtube.com/watch?v=N52VD2LzQmw
-  applemusic: https://itunes.apple.com/us/album/healing/1206416305?uo=4
+  applemusic: https://music.apple.com/album/healing/1206416305
   soundcloud: ""
   bandcamp: https://inlovewithaghost.bandcamp.com/album/healing
   deezer: https://www.deezer.com/album/15402093

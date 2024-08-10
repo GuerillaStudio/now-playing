@@ -7,11 +7,10 @@ styles:
   - Electronic
   - Electronica
 links:
-  applemusic: 'https://music.apple.com/us/album/aspire/1487412746?uo=4'
+  applemusic: 'https://music.apple.com/album/aspire/1487412746'
   bandcamp: 'https://sheofficial.bandcamp.com/album/aspire'
   deezer: 'https://www.deezer.com/album/118608252'
   soundcloud: ''
   spotify: 'https://play.spotify.com/album/5V9y2bHliBREADnDZWNS3g'
   youtube: ''
 ---
-

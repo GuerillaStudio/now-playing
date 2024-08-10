@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/3M1CEjZiljxpfxoHFHoqNP
   youtube: https://music.youtube.com/watch?v=axkOqrLtDXo
-  applemusic: https://itunes.apple.com/us/album/neon-impasse/1396662779?uo=4
+  applemusic: https://music.apple.com/album/neon-impasse/1396662779
   soundcloud: https://soundcloud.com/citygrl/tracks
   bandcamp: https://city-girl.bandcamp.com/album/neon-impasse
   deezer: ""

@@ -6,11 +6,10 @@ cover: /upload/anti-flag-2020-vision.jpg
 styles:
   - Punk
 links:
-  applemusic: 'https://music.apple.com/us/album/20-20-vision/1482154654?uo=4'
+  applemusic: 'https://music.apple.com/album/20-20-vision/1482154654'
   bandcamp: ''
   deezer: 'https://www.deezer.com/album/126485262'
   soundcloud: ''
   spotify: 'https://play.spotify.com/album/6e4jOwPyT9Xp9fy9nzuXDS'
   youtube: 'https://music.youtube.com/playlist?list=OLAK5uy_mWW-UvL8A63JIes-iYaHqFyFFGIpf1npE'
 ---
-

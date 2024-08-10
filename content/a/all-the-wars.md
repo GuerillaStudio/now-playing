@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/1UxORLzYOVBrrxRWA1cSjf
   youtube: https://music.youtube.com/watch?v=-axgj7JywCA
-  applemusic: https://itunes.apple.com/us/album/all-the-wars-deluxe-edition/675858750?uo=4
+  applemusic: https://music.apple.com/album/all-the-wars-deluxe-edition/675858750
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/5375861

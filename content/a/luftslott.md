@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/0BNXjPPSFrB80ea1ThuNWS?si=KXNTSQX2RnSvnRsYEshMxQ
   youtube: https://music.youtube.com/watch?v=nxbi65EbyvY
-  applemusic: https://itunes.apple.com/us/album/luftslott-ep/490499534?uo=4
+  applemusic: https://music.apple.com/album/luftslott-ep/490499534
   soundcloud: ""
   bandcamp: https://ugress.bandcamp.com/album/luftslott-ep
   deezer: https://www.deezer.com/album/1634289

@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://open.spotify.com/album/50DXaNu8sQqoe6xWoabOJF?si=BjOh74bHTcimsd93Rgsf_w
   youtube: https://music.youtube.com/watch?v=y904xPTvCXU
-  applemusic: https://itunes.apple.com/us/album/eco/1030973508?uo=4
+  applemusic: https://music.apple.com/album/eco/1030973508
   soundcloud: ""
   bandcamp: https://davidmaximmicic.bandcamp.com/album/eco
   deezer: https://www.deezer.com/album/11025012

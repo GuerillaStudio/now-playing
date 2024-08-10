@@ -7,11 +7,10 @@ styles:
   - Trip hop
   - Downtempo
 links:
-  applemusic: 'https://itunes.apple.com/us/album/baralku/1299393164?uo=4'
+  applemusic: 'https://music.apple.com/album/baralku/1299393164'
   bandcamp: 'https://emancipator.bandcamp.com/album/baralku'
   deezer: 'https://www.deezer.com/album/50323442'
   soundcloud: 'https://soundcloud.com/emancipator/sets/baralku-3'
   spotify: 'https://play.spotify.com/album/3vUL7XVv8gsxuIFbamidAn'
   youtube: 'https://music.youtube.com/playlist?list=OLAK5uy_kS-h3uahYtGZtJsj4m2iDwecWvweLuunk'
 ---
-

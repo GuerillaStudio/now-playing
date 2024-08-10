@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/5MruJPW5X4cal6bpN7llrF
   youtube: https://music.youtube.com/watch?v=vsOaFuHfpKs
-  applemusic: https://itunes.apple.com/us/album/sigma/1159663862?uo=4
+  applemusic: https://music.apple.com/album/sigma/1159663862
   soundcloud: ""
   bandcamp: ""
   deezer: ""

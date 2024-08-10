@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/track/7Hr1Ignop7cymbE3FbOtXa
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_lNZw-GhIIJnDGMCPZ1DGRQAl4IWaT8t5Y
-  applemusic: https://music.apple.com/us/album/so-far-away/379320560?i=379320629&uo=4
+  applemusic: https://music.apple.com/album/so-far-away/379320560?i=379320629&uo=4
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/620594

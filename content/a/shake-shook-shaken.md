@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0q44mFwXE2oJiDGf7YXAcn
   youtube: https://music.youtube.com/watch?v=hfpFiZA_dXU
-  applemusic: https://itunes.apple.com/us/album/shake-shook-shaken/960216247?uo=4
+  applemusic: https://music.apple.com/album/shake-shook-shaken/960216247
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/8887473

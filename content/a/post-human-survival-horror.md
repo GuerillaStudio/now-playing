@@ -8,7 +8,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0e1WaSNDZnoPixaxDNdWo4
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_l9TPf1JXY6tsKaKURirxb8uhuIelX1kb4
-  applemusic: https://music.apple.com/us/album/post-human-survival-horror/1535067172?uo=4
+  applemusic: https://music.apple.com/album/post-human-survival-horror/1535067172
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/182475962

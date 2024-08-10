@@ -9,7 +9,7 @@ styles:
 links:
   spotify: https://play.spotify.com/album/0Rm1Q7jINtrkDbfXfqnlYg
   youtube: https://music.youtube.com/playlist?list=OLAK5uy_kES9gUWsxL9Vv2oJyuTtQeqDk1RrnCLi0
-  applemusic: https://music.apple.com/us/album/dead-end-kings-deluxe-edition/675838299?uo=4
+  applemusic: https://music.apple.com/album/dead-end-kings-deluxe-edition/675838299
   soundcloud: ""
   bandcamp: ""
   deezer: https://www.deezer.com/album/5317491
