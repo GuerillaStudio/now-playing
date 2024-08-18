@@ -57,4 +57,4 @@ Go to you website's local url + `/admin` (by default it's `http://localhost:1312
 
 ## License
   * All albums visuals and streaming services logos rights belong entirely to their respective owners
-  * Code is under [“I'm so tired” 1.0](LICENSE) license. Please **take the time** to read and *check if you're allowed* to use it before doing so. (*Thank you luna who made it* \[[source](https://olmewe.com/notepad/istsl/)\].)
+  * Code is under [“I'm so tired” 1.0](LICENSE) license. Please **take the time** to read and *check if you're allowed* to use it before doing so. (*Thank you luna who made it* \[[source](https://olmewe.com/notes/istsl)\].)
