@@ -1,3 +1,7 @@
+---
+when:
+  event: [tag, push, release, deployment, cron, manual]
+  branch: [main]
 steps:
   - name: build hugo
     image: alpine:3.19.1
