@@ -2,7 +2,10 @@ baseURL = "http://localhost:1312/"
 languageCode = "en-us"
 title = "Now Playing"
 mainSections = ["a"]
-paginate = 16
+[pagination]
+  disableAliases = false
+  pagerSize = 16
+  path = 'page'
 disableKinds = ["taxonomy"]
 [params]
   description = "Collection of Handpicked Albums by Guérilla.Studio"
