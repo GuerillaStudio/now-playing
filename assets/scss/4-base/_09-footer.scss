@@ -17,12 +17,14 @@
   // color: inherit;
 }
 
-.footer__logo,
-.footer__logo:link,
-.footer__logo:visited {
+.footer__logo:where(:link, :visited) {
   display: inline-block;
   text-decoration: none;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 0.015em;
+}
+
+.footer__logo:where(:hover, :active, :focus) {
+  text-decoration: underline;
 }
