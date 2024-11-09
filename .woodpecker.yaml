@@ -4,7 +4,7 @@ when:
   branch: [main]
 steps:
   - name: build hugo
-    image: alpine:3.19.1
+    image: alpine:3.20.3
     commands:
       - export UMAMI_DOMAIN=$UMAMI_DOMAIN
       - export UMAMI_ID=$UMAMI_ID
@@ -17,7 +17,7 @@ steps:
     when:
       branch:
         - main
-    image: plugins/s3
+    image: woodpeckerci/s3
     settings:
       bucket: music.guerilla.studio
       endpoint: https://garage.deuxfleurs.fr
