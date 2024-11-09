@@ -39,8 +39,6 @@
     <meta name="twitter:title" content="Now Playing ∴ Great music should be shared" />
     <meta name="twitter:description" content="{{ .Site.Params.description }}" />
     {{ end }}
-    <!-- experimental view transition API -->
-    <meta name="view-transition" content="same-origin" />
 
     {{ with .Site.GetPage "/" }}
       {{ with .OutputFormats.Get "rss" }}
