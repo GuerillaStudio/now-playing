@@ -19,23 +19,23 @@ class MobileMenu {
   bindEvents () {
     document.addEventListener('touchstart', (event) => {
       this.touchStart(event)
-    }, false)
+    }, {passive: true}, false)
     document.addEventListener('touchmove', (event) => {
       this.touchMove(event)
-    }, false)
+    }, {passive: false}, false)
     document.addEventListener('touchend', (event) => {
       this.touchEnd(event)
-    }, false)
+    }, {passive: true}, false)
     this.btn.addEventListener('click', (event) => {
       this.toggleMenu(event)
     }, false)
     this.overlay.addEventListener('touchstart', (event) => {
       this.touchAction = true
-    }, false)
+    }, {passive: true}, false)
     this.overlay.addEventListener('touchend', (event) => {
       this.toggleMenu(event)
       this.touchAction = false
-    }, false)
+    }, {passive: true}, false)
     this.overlay.addEventListener('click', (event) => {
       this.toggleMenu(event)
       if (this.touchAction) return
