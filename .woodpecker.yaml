@@ -17,7 +17,7 @@ steps:
     when:
       branch:
         - main
-    image: woodpeckerci/s3
+    image: woodpeckerci/plugin-s3
     settings:
       bucket: music.guerilla.studio
       endpoint: https://garage.deuxfleurs.fr
