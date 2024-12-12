@@ -30,3 +30,4 @@ steps:
       target: /
       strip_prefix: public/
       path_style: true
+      overwrite: true
