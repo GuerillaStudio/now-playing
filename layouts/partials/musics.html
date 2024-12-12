@@ -2,9 +2,9 @@
 <div class="grid grid-catalog">
   {{ range sort $pages.Pages "Date" "desc" }}
     {{ $original := resources.Get .Params.cover }}
-    {{ $cover := $original.Resize "x320" }}
-    {{ $cover2x := $original.Resize "x640" }}
-    {{ $placeholder := $cover.Resize "x1" }}
+    {{ $cover := $original.Resize "x320 jpeg" }}
+    {{ $cover2x := $original.Resize "x640 jpeg" }}
+    {{ $placeholder := $cover.Resize "x1 jpeg" }}
     <div class="catalog-item">
       <a class="catalog-item__content" href="{{ .Permalink }}">
         <h2 class="catalog-item__album">{{ .Title }}</h2>
