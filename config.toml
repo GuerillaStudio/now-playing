@@ -29,5 +29,4 @@ quality = 95
 
 ## Deploy into a Garage bucket at Deuxfleurs
 [[deployment.targets]]
-name = "deuxfleurs"
 URL = "s3://music.guerilla.studio&endpoint=garage.deuxfleurs.fr&region=garage&s3ForcePathStyle=true"
