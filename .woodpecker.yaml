@@ -17,17 +17,11 @@ steps:
     when:
       branch:
         - main
-    image: woodpeckerci/plugin-s3
-    settings:
-      bucket: music.guerilla.studio
-      endpoint: https://garage.deuxfleurs.fr
-      region: garage
-      access_key:
+    image: node:lts-alpine
+    environment:
+      AWS_ACCESS_KEY_ID:
         from_secret: aws_access_key_id
-      secret_key:
+      AWS_SECRET_ACCESS_KEY:
         from_secret: aws_secret_access_key
-      source: public/**/*
-      target: /
-      strip_prefix: public/
-      path_style: true
-      overwrite: true
+    commands:
+      - npx --yes dxfl deploy music.guerilla.studio public/ --yes
