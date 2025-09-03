@@ -5,18 +5,19 @@ when:
 steps:
   - name: build hugo
     image: alpine:edge
+    environment:
+      UMAMI_DOMAIN:
+        from_secret: umami_domain
+      UMAMI_ID:
+        from_secret: umami_id
     commands:
       - export UMAMI_DOMAIN=$UMAMI_DOMAIN
       - export UMAMI_ID=$UMAMI_ID
       - apk update
       - apk add hugo
       - hugo -b 'https://music.guerilla.studio'
-    secrets: [ 'umami_domain', 'umami_id' ]
 
   - name: upload
-    when:
-      branch:
-        - main
     image: node:lts-alpine
     environment:
       AWS_ACCESS_KEY_ID:
