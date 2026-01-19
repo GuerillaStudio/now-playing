@@ -1,7 +1,7 @@
 ---
 backend:
   name: github
-  repo: GuerillaHQ/now-playing
+  repo: GuerillaStudio/now-playing
   branch: main
 # local_backend: true
 site_url: https://music.guerilla.studio
