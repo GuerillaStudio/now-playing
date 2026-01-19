@@ -9,6 +9,9 @@ display_url: https://music.guerilla.studio
 logo_url: https://music.guerilla.studio/images/illustration.svg
 media_folder: assets/upload
 public_folder: "/upload"
+slug:
+  encoding: 'ascii'
+  clean_accents: true
 collections:
 - editor:
     preview: false
