@@ -25,7 +25,7 @@ As it `$URL` is an env variable but you can harcode it in the build command.
 
 ## Use NetlifyCMS backoffice in local mode
 
-This website use [NetlifyCMS](https://www.netlifycms.org/) backoffice to manage albums easily.
+This website use [DecapCMS](https://decapcms.org) backoffice to manage albums easily.
 And it's possible to use it while working in local:
 
 ### Install JS dependencies
@@ -42,7 +42,7 @@ npm ci
 
 1. Uncomment the `local_backend` line in `static/config.yml`
 2. Launch [hugo developement server](#launch-dev-server)
-2. launch this command in another terminal `npx netlify-cms-proxy-server` (inside the project folder)
+2. launch this command in another terminal `npx decap-server` (inside the project folder)
 
 ### Admin your website in local
 
